@@ -1,0 +1,312 @@
+body{
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    }
+    
+    .theheader{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: block;
+        position: relative;
+        /* border: 1px solid #000; */
+        padding: 10px;
+        margin: 10px;
+        /* background-color: #f0f0f0; */
+        border-radius: 10px;
+        /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); */
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .theinsideheader{
+        display: inline-block;
+        padding: 10px;
+        width:20%;
+    }
+    
+    .theinsideheaderleft{
+      left: 1%;
+      display: inline-block;
+      width:35%;
+      margin-right:10%;
+      padding: 10px;
+      text-align: left;
+    }
+    
+    .theinsideheaderright{
+    
+      display: inline-block;
+      width:30%;
+      margin-left:5%;
+      text-align: right;
+      padding: 10px;
+      /* border: 1px solid #000; */
+      /* position: relative; */
+    }
+    
+    .thelinks{
+        padding: 10px;
+        margin: 10px;
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .searchicon{
+      /* position: absolute; */
+      right:50px;
+      width:16px;
+      z-index: 2;
+      cursor: pointer;
+    }
+    .searchinput{
+      width:25%;
+      /* position: relative; */
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 1px solid #000;
+    }
+    
+    .userimage{
+      width:24px;
+      /* position: relative; */
+    }
+    
+    .logoimage{
+      width:200px;
+      text-align: center;
+      cursor: pointer;
+    }
+    
+    
+    .theimage{
+        width:500px;
+    }
+    
+    .theimageabout{
+        width: 400px;
+        border-radius: 40px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .banner{
+        display:flex;
+        align-items: center;
+        background-color: #f0f0f0;
+        border: 1px solid #000;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .textrotated{
+      transform: rotate(90deg);
+      position: absolute;
+      top:-550%;
+      right:-20%;
+      letter-spacing: -12px;
+      font-size: 150px;
+    }
+    
+    .textsmall{
+      position: absolute;
+      bottom:-650%;
+      right:0%;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin:10px;
+      text-align: right;
+    
+    }
+    
+    .banner2{
+        display:block;
+        text-align: center;
+        background-color: #f0f0f0;
+        border: 1px solid #000;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    
+    .bannerleft{
+        display:inline-block;
+        position: relative;
+        width: 45%;
+        text-align: center;
+        border-radius: 10px;
+        /* border: 1px solid #000; */
+        /* padding: 10px; */
+        /* margin: 10px; */
+        /* border-right: 1px solid #000; */
+    }
+    
+    .bannerright{
+        display:inline-block;
+        text-align: center;
+        width: 45%;
+        position: relative;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .gradient-overlay {
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 35%; /* Adjust width of fading area */
+        height: 100%;
+        border-radius: 15px;
+        background: linear-gradient(to right, white, f0f0f0);
+        backdrop-filter: blur(15px); /* Blur the image beneath the overlay */
+        pointer-events: none; /* So it doesn't block clicks */
+      }
+    
+      .theaboutcontent2{
+        border: 1px solid #000;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #f0f0f0;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+      }
+      
+      .thecontactsection{
+    
+        position: relative;
+        background-image: url('https://i.ibb.co/xSW7NSSv/customer-service.png');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px;
+    
+      }
+    
+     h1{
+        font-size: 110px;
+      }
+    
+      .thecontactparagraph{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+      }
+    
+      .overlay {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.4); /* 30% black transparency */
+        z-index: 1;
+      }
+    
+      .thecontactcontent {
+        position: relative;
+        z-index: 2;
+        padding: 20px;
+        color: white;
+      }
+    
+      .thecontactform{
+        display:block;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #f0f0f0;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+      }
+    
+      .thecontactinput{
+        border-radius: 10px;
+        margin: 5px;
+        margin: 3px;
+      }
+    
+    
+      .bannerproject{
+    
+        position: relative;
+        background-image: url('https://i.ibb.co/bMcyV9JQ/project.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px;
+    
+      }
+    
+    
+      .projectoverlay {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.4); /* 30% black transparency */
+        z-index: 1;
+      }
+    
+      .theprojectcontent {
+        position: relative;
+        z-index: 2;
+        padding: 20px;
+        color: white;
+      }
+    
+      .thefootercontainer{
+        display:block;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #f0f0f0;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+      }
+    
+    
+      .bannerabout{
+        position: relative;
+        background-image: url('https://i.ibb.co/35znspLh/about.webp');
+        background-size: cover;
+        background-position-y: 10%;
+        height: 500px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px;
+    
+      }
+    
+      .aboutoverlay {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.4); /* 30% black transparency */
+        z-index: 1;
+      }
+    
+      .theaboutcontent {
+        position: relative;
+        z-index: 2;
+        padding: 20px;
+        color: white;
+      }
