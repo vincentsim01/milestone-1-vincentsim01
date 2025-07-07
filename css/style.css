@@ -150,6 +150,26 @@ body{
         padding: 10px;
         margin: 10px;
     }
+
+.thepowercontainer{
+        display:block;
+        text-align: center;
+        border:1px solid #000;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #f0f0f0;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    }
+
+.chemicalsegmentedbarchart{
+        display:inline-block;
+        width:60%;
+        background-color: blue;
+        border:1px solid #000;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    }
     
     .gradient-overlay {
         position:absolute;
