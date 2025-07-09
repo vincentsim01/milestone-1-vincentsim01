@@ -913,3 +913,10 @@ h1{
         font-size: 2rem;
     }
 }
+
+.timelinecontainer{
+    margin:10px;
+    padding:30px;
+    border: solid black 1px;
+    border-radius:10px;
+}
