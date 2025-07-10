@@ -1552,3 +1552,16 @@ h1{
         font-size: 20px;
     }
 }
+
+.aboutintro{
+    margin:20px;
+    padding:20px;
+    border:solid 1px black;
+    border-radius:10px;
+    background-color:white;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.1);
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
