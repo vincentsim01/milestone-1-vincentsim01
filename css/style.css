@@ -67,6 +67,12 @@ color: #000;
 font-size: 11px;
 font-weight: bold;
 }
+
+.thelinks:hover{
+    text-decoration: underline;
+    transition: text-decoration 1s ease-in-out;
+}
+
     
 .searchicon{
     right:50px;
@@ -106,6 +112,16 @@ font-weight: bold;
     
 .theimage{
     width:500px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-style: groove;
+    border: 3px ridge #ffffff;
+}
+
+.theimage:hover{
+    transform: scale(1.01) rotate(-3deg);
+    transition: transform 0.3s ease-in-out;
+    
 }
     
 .theimageabout{
@@ -176,6 +192,30 @@ font-weight: bold;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+}
+
+#indexbuttonbanner{
+    background: transparent;
+    position:absolute;
+    bottom:-30%;
+    left:25%;
+    width:50%;
+    color:white;
+    font-family: michroma;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#indexbuttonbanner:hover{
+    background: white;
+    color:black;
+    transition: background 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 .thepowercontainer{
