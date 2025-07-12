@@ -128,23 +128,23 @@ font-weight: bold;
     /* border-radius: 10px; */
     /* padding: 10px;
     margin: 10px; */;
-    height:800px;
+    height:900px;
 }
 
 .textrotated{
     transform: rotate(90deg);
     position: absolute;
-    top:-700%;
+    top:-380%;
     right:-30%;
     letter-spacing: -12px;
-    font-size: 150px;
+    font-size: 50px;
 }
     
 .textsmall{
     position: absolute;
     bottom:-650%;
-    right:0%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    right:-80%;
+    font-family: michroma;
     margin:10px;
     text-align: right;
     line-height: 0.6;
