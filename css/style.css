@@ -1,5 +1,8 @@
+
+
+
 body{
-        font-family: Arial;
+     font-family: "Noto Sans";
     }
     
 .theheader{
@@ -74,7 +77,7 @@ font-weight: bold;
     }
 
 .searchinput{
-    width:25%;
+    width:45%;
     padding: 10px;
     margin: 10px;
     border-radius: 30px;
