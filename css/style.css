@@ -1027,18 +1027,80 @@ h1{
     border-radius:10px;
 }
 
+
+
+
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+.skill-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Animation on load */
+.progress-bar {
+    width: 0%;
+}
+
+.animate {
+    animation: fillBar 2s ease-in-out forwards;
+}
+
+@keyframes fillBar {
+    to { width: var(--target-width); }
+}
+
+
+.theskillscontainer{
+    display:flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+
+    background-image:url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHRiZzJmaGR6amoxNXk3a2Z4cjE1bzQyd3FzNG14aXhmYjg3MWhrdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WFjcyy95rUXPXo1k43/giphy.gif');
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+    z-index:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
 .skills-container {
     /* background: white; */
     border-radius: 15px;
     padding: 40px;
+    /* color:white; */
     /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); */
     max-width: 600px;
     width: 100%;
+    z-index:2;
+    color:white;
+    /* position:absolute; */
+
+}
+
+.skilloverlay{
+    z-index:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.3);
+
 }
 
 .skills-title {
     text-align: center;
-    color: #333;
+    /* color: #333; */
     margin-bottom: 30px;
     font-size: 24px;
     font-weight: 600;
@@ -1046,6 +1108,7 @@ h1{
 
 .skill-item {
     margin-bottom: 25px;
+    color:white;
 }
 
 .skill-header {
@@ -1058,7 +1121,7 @@ h1{
 .skill-name {
     font-size: 16px;
     font-weight: 500;
-    color: #555;
+    /* color: #555; */
 }
 
 .skill-percentage {
@@ -1092,40 +1155,6 @@ h1{
     bottom: 0;
     background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
     animation: shimmer 2s infinite;
-}
-
-@keyframes shimmer {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
-}
-
-.skill-item:last-child {
-    margin-bottom: 0;
-}
-
-/* Animation on load */
-.progress-bar {
-    width: 0%;
-}
-
-.animate {
-    animation: fillBar 2s ease-in-out forwards;
-}
-
-@keyframes fillBar {
-    to { width: var(--target-width); }
-}
-
-.theskillscontainer{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border: solid black 1px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #f0f0f0;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 
