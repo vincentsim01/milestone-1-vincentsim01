@@ -125,6 +125,8 @@
     display:inline-block;
     border:1px solid white;
     background-color: rgba(223, 212, 212, 0.5);
+    animation:tablemove;
+    animation-duration:2s;
 }
 
 .thetable{
@@ -137,6 +139,8 @@
     height:250px;
     font-size: 10px;
     z-index:2;
+    animation: tablemove;
+    animation-duration: 2s;
 }
 
 td,tr,th{
@@ -277,4 +281,22 @@ td{
 
 @keyframes fillBar {
     to { width: var(--target-width); }
+}
+
+
+
+
+@keyframes tablemove {
+    0% { 
+        transform: translateX(-100%); 
+        transform: translateY(-100%);
+    }
+    /* 50% { 
+        transform: translateX(-50%);
+        transform: translateY(-50%); 
+    } */
+    100% { 
+        transform: translateX(0%); 
+        transform: translateY(0%); 
+    }
 }
