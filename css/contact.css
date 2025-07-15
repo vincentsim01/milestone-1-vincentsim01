@@ -1,0 +1,80 @@
+.thecontactsection{
+    position: relative;
+    background-image: url('https://i.ibb.co/xSW7NSSv/customer-service.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.phonecontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+
+.phone{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+     
+.thecontactformcontainer{
+    display:block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 3px dotted #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+    
+.thecontactform{
+    display:inline-block;
+    text-align: center;
+    border: 1px solid #000;
+    width:50%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+    
+.thecontactinput{
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.mapcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+
+.address{
+    margin-left:35px;
+}

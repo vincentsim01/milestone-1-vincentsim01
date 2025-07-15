@@ -1,0 +1,58 @@
+.theaboutcontent2{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.theaboutinside{
+    margin:10px;
+    padding:10px;
+    display:block;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.theaboutinsideinside{
+    display:flex;
+    align-items: center;
+    border:1px solid #000;
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.aboutoverlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* 30% black transparency */
+    z-index: 1;
+}
+
+.theaboutcontent {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    color: white;
+}
+
+.bannerabout{
+    position: relative;
+    background-image: url('https://i.ibb.co/35znspLh/about.webp');
+    background-size: cover;
+    background-position-y: 10%;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+}
