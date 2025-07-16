@@ -186,6 +186,10 @@ h1{
         display: none;
         border:1px solid #000;
       }
+
+      .footercontent{
+        font-size:10px;
+      }
   }
   
   /* Small devices (phones, ≤600px) */
@@ -210,6 +214,10 @@ h1{
     .searchicon{
         display:none;
     }
+
+    .footercontent{
+        font-size:10px;
+      }
   }
   
   /* Medium devices (tablets) */
@@ -235,6 +243,10 @@ h1{
     .searchicon{
         display:none;
     }
+
+    .footercontent{
+        font-size:15px;
+      }
   }
   
   /* Large devices (laptops/tablets) */
