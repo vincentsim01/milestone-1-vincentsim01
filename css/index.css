@@ -97,6 +97,9 @@
     background-size: cover;
     background-position: top;
     height:800px;
+    /* top: 0;
+    left: 0;
+    transform: translate(-100px, -100px); */
 }
 
 .overlay {
@@ -107,7 +110,7 @@
     z-index: 0;
 }
 
-.tableinsideleft{
+#tableinsideleft{
     display:inline-block;
     width:40%;
     height:250px;
@@ -115,6 +118,9 @@
     position:absolute;
     left:10%;
     z-index:2;
+    /* top: -100px; */
+    /* left: -100px; */
+    /* transform: translate(100px, 100px); */
 }
 
 .tableleftp{
@@ -300,3 +306,4 @@ td{
         transform: translateY(0%); 
     }
 }
+
