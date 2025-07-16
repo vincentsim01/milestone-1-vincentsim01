@@ -7,12 +7,12 @@ const finalX = window.innerWidth / 2 - 50;
 const finalY = window.innerHeight / 2 - 50;
 
 // Initial position (top-left, off-screen)
-const initialX = -500;
+const initialX = -450;
 const initialY = 0;
 
 // Animation parameters
 const startScroll = 400;
-const endScroll = 1300;
+const endScroll = 1100;
 
 function updateAnimation() {
     const scrollY = window.pageYOffset;

@@ -112,7 +112,7 @@
 
 #tableinsideleft{
     display:inline-block;
-    width:40%;
+    width:50%;
     height:250px;
     font-size: 40px;
     position:absolute;
@@ -440,7 +440,7 @@ td{
         /* transform:none; */
         /* font-size:5px; */
         display:block;
-        width:100%;
+        width:85%;
         /* height:100px; */
         /* width:20%; */
 
@@ -448,12 +448,13 @@ td{
 
     .thetable{
         display:inline-block;
-        width:70%;
+        width:90%;
         /* font-size:7px; */
     }
 
     .theskillscontainer{
         display:block;
+        z-index:2;
         
     }
 
@@ -464,13 +465,45 @@ td{
     .progress-bar-container{
         width:70%;
     }
+
+    .skill-item{
+        width:80%;
+    }
+
+    .progress-bar-container{
+        width:80%;
+    }
+
+    .skill-header{
+        font-size:10px;
+    }
+
+    .skilloverlay{
+        z-index: 0;
+    }
 }
 
 
-@media (min-width:705px) and (max-width: 1000px){
+@media (min-width:750px) and (max-width: 1150px){
     
 
     .theimage{
         width:150%;
+    }
+
+    .thetablecontainer{
+        display:block;
+        /* font-size:5px; */
+        /* height:800px; */
+    }
+
+    #tableinsideleft{
+        /* transform:none; */
+        /* font-size:5px; */
+        display:block;
+        width:90%;
+        /* height:100px; */
+        /* width:20%; */
+
     }
 }
