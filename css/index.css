@@ -371,6 +371,10 @@ td{
         font-size: 10px;
     }
 
+    .skill-item{
+        width:80%;
+    }
+
     .progress-bar-container{
         width:50%;
     }
