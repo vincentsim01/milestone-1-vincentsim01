@@ -168,6 +168,11 @@ h1{
     width:20%;
 }
 
+.paymentlogopicture{
+    width:30px;
+    height:30px;
+}
+
 /* Extra small devices (phones, <480px) */
 @media (max-width: 480px) {
     .theinsideheaderleft{
@@ -188,8 +193,13 @@ h1{
       }
 
       .footercontent{
-        font-size:10px;
+        font-size:5px;
       }
+
+      .paymentlogopicture{
+        width:10px;
+        height:10px;
+    }
   }
   
   /* Small devices (phones, ≤600px) */
@@ -216,8 +226,13 @@ h1{
     }
 
     .footercontent{
-        font-size:10px;
+        font-size:6px;
       }
+
+      .paymentlogopicture{
+        width:12px;
+        height:12px;
+    }
   }
   
   /* Medium devices (tablets) */
@@ -245,8 +260,15 @@ h1{
     }
 
     .footercontent{
-        font-size:15px;
+        font-size:8px;
       }
+
+      .paymentlogopicture{
+        width:15px;
+        height:15px;
+    }
+
+
   }
   
   /* Large devices (laptops/tablets) */
@@ -278,6 +300,15 @@ h1{
     .searchicon{
         display:none;
     }
+    .footercontent{
+        font-size:10px;
+      }
+
+      .paymentlogopicture{
+        width:20px;
+        height:20px;
+    }
+
   }
   
   /* Extra large devices (desktops and up) */
