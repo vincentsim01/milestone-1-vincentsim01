@@ -7,8 +7,8 @@ const finalX = window.innerWidth / 2 - 50;
 const finalY = window.innerHeight / 2 - 50;
 
 // Initial position (top-left, off-screen)
-const initialX = -200;
-const initialY = -200;
+const initialX = -500;
+const initialY = 0;
 
 // Animation parameters
 const startScroll = 400;
