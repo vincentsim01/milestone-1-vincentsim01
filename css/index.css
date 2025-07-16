@@ -307,3 +307,91 @@ td{
     }
 }
 
+
+
+@media (max-width: 600px){
+    .banner{
+        display:block;
+    }
+
+    .bannerleft{
+        display:block;
+        position:relative;
+
+    }
+
+    .textrotated{
+        transform:rotate(0deg);
+        position:relative;
+        letter-spacing: -5px;
+    }
+
+    .textrotatedfont{
+        font-size:50px;
+    }
+
+    .textsmall{
+        position:relative;
+        margin:0px;
+        text-align: right;
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    .bannerright{
+        display:block;
+
+    }
+
+    .theimage{
+        width:350px;
+    }
+}
+
+@media (min-width:601px) and (max-width: 750px){
+    .banner{
+        display:block;
+    }
+
+    .bannerleft{
+        display:block;
+        position:relative;
+
+    }
+
+    .textrotated{
+        transform:rotate(0deg);
+        position:relative;
+        letter-spacing: -5px;
+    }
+
+    .textrotatedfont{
+        font-size:60px;
+    }
+
+    .textsmall{
+        position:relative;
+        margin:0px;
+        text-align: right;
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    .bannerright{
+        display:block;
+
+    }
+
+    .theimage{
+        width:500px;
+    }
+}
+
+
+@media (min-width:705px) and (max-width: 1000px){
+    
+
+    .theimage{
+        width:150%;
+    }
+}
