@@ -34,6 +34,16 @@ body{
    
 .menuburger{
     display:none;
+    cursor:pointer;
+}
+
+.none{
+    display:none;
+}
+
+.menunavburgercontainer{
+    width:30%;
+    width:100px;
 }
 
 .theinsideheaderright{
