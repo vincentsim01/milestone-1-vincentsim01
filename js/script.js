@@ -8,3 +8,6 @@ function togglenavburger(){
 }
 
 document.getElementsByClassName('menuburgercontainer')[0].addEventListener("click", togglenavburger)   
+
+
+document.getElementsByClassName('closeburgernav')[0].addEventListener("click", togglenavburger) 
