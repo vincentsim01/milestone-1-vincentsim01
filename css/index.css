@@ -205,7 +205,7 @@ td{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height:100vh;
+    height:120vh;
 
 }
 
@@ -216,7 +216,7 @@ td{
     margin:10px;
     padding:10px;
     width: 94%;
-    height:75%;
+    height:80%;
     z-index:2;
     color:black;
     grid-template-columns: 1fr 1fr 1fr;
@@ -230,10 +230,10 @@ td{
     /* position:absolute; */
     /* bottom:-30%;
     left:25%; */
-    width:40%;
+    width:60%;
     color:black;
     font-family: michroma;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     border: 2px solid black;
     border-top-right-radius: 30px;
@@ -410,7 +410,7 @@ td{
     .theskillscontainer{
         display:block;
         font-size: 10px;
-        height:270vh;
+        height:290vh;
         border:1px solid black;
         padding:0px;
       
@@ -424,7 +424,7 @@ td{
     .skills-container{
         display:block;
         padding:0px;
-        height:250vh;
+        height:260vh;
         border:0px;
         
     }

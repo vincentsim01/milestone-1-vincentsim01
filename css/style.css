@@ -228,9 +228,29 @@ h1{
         font-size:5px;
       }
 
+      .footercontentleft{
+        display:block;
+        width:85%;
+      }
+
+      .footercontentmiddle{
+        display:block;
+        width:85%;
+      }
+
+      .footercontentright{
+        display:block;
+        width:85%;
+      }
+
+      .paymentlogo{
+        width:23%;
+      }
       .paymentlogopicture{
-        width:10px;
-        height:10px;
+
+        height:200px;
+        border:solid 1px black;
+   
     }
   }
   
@@ -262,9 +282,15 @@ h1{
         display:none;
     }
 
-    .footercontent{
+
+      .footercontent{
+        display:block;
+        width:100%;
+        
         font-size:6px;
-      }
+        margin:5px;
+        padding:5px;
+    }
 
       .paymentlogopicture{
         width:12px;
