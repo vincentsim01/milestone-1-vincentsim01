@@ -58,6 +58,10 @@
     margin: 10px;
 }
 
+.bannerright button a{
+    color:white;
+}
+
 #indexbuttonbanner{
     background: transparent;
     position:absolute;
