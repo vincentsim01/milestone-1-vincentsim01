@@ -41,3 +41,51 @@ function updateAnimation() {
 window.addEventListener('scroll', updateAnimation);
 window.addEventListener('resize', updateAnimation);
 updateAnimation();
+
+
+
+
+
+const animatedImageskill = document.getElementsByClassName('skills-container');
+
+
+
+// Final position (center of viewport)
+const finalXskill = window.innerWidth / 2 - 50;
+const finalYskill = window.innerHeight / 2 - 50;
+
+// Initial position (top-left, off-screen)
+const initialXskill = 550;
+const initialYskill = 0;
+
+// Animation parameters
+const startScrollskill = 1400;
+const endScrollskill = 2000;
+
+function updateAnimationskill() {
+    const scrollYskill = window.pageYOffset;
+
+    
+    // Final position: 50px from left, 1000px from top
+    const finalXskill = 0;
+    const finalYskill = 0;
+    
+    if (scrollYskill < startScrollskill) {
+        // Before animation - hide image
+        animatedImageskill[0].style.transform = `translate(${initialXskill}px, ${initialYskill}px)`;
+    } else if (scrollYskill >= startScrollskill && scrollYskill <= endScrollskill) {
+        // During animation - move image
+        const progressskill = (scrollYskill - startScrollskill) / (endScrollskill - startScrollskill);
+        const currentXskill = initialXskill + (finalXskill - initialXskill) * progressskill;
+        const currentYskill = initialYskill + (finalYskill - initialYskill) * progressskill;
+        
+        animatedImageskill[0].style.transform = `translate(${currentXskill}px, ${currentYskill}px)`;
+    } else {
+        // After animation - keep at final position (50px from left, 1000px from top)
+        animatedImageskill[0].style.transform = `translate(${finalXskill}px, ${finalYskill}px)`;
+    }
+}
+
+window.addEventListener('scroll', updateAnimationskill);
+window.addEventListener('resize', updateAnimationskill);
+updateAnimationskill();
