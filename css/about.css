@@ -205,6 +205,8 @@
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.9);
     transition: all 0.3s ease;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     position: relative;
     overflow: hidden;
 }
@@ -270,13 +272,16 @@
 }
 
 .expand-button {
-    background: linear-gradient(135deg, #333, #555);
-    color: white;
+    background: transparent;
+    color: black;
     border: none;
     padding: 8px 16px;
-    border-radius: 20px;
     cursor: pointer;
     font-size: 14px;
+    font-family: michroma;
+    border: 2px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     font-weight: bold;
     transition: all 0.3s ease;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -468,9 +473,39 @@
         font-size: 24px;
         padding: 20px;
     }
+
+    .aboutintro{
+        height: 120vh;
+        display:block;
+        margin:10px;
+        padding:10px;
+        text-align:center;
+    }
+
+    .aboutintrotext{
+        font-size:1.2em;
+    }
+
+    .aboutintrointrotext{
+        font-size:0.8em;
+    }
+
+    .segment-header{
+        display:block;
+        font-size:0.8em;
+    }
     
     .segment-title {
-        font-size: 16px;
+        font-size: 1.2em;
+        text-align:left;
+    }
+
+    .expand-button{
+        font-size:1em;
+    }
+
+    .segment-text{
+        font-size:0.8em;
     }
     
     .segment-icon {
@@ -486,12 +521,16 @@
 
     .gallerycontainer{
         display:block;
-        width:100%;
+        width:90%;
     }
 
     .galleryinsidecontainer{
         display:block;
         width:100%;
+    }
+
+    .galleryinsidecontainer img:nth-of-type(4){
+        width:97%;
     }
 
     .galleryimage{
