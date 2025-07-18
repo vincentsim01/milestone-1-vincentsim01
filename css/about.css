@@ -479,6 +479,11 @@
         font-size: 20px;
     }
 
+    h1.aboutitle{
+        font-size:2em;
+        /* border:1px solid black; */
+    }
+
     .gallerycontainer{
         display:block;
         width:100%;
