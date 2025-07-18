@@ -197,7 +197,7 @@ h1{
 
 .paymentlogo{
     display:inline-block;
-    width:20%;
+    width:22%;
 }
 
 .paymentlogopicture{
@@ -225,37 +225,66 @@ h1{
       }
 
       .footercontent{
-        font-size:5px;
+        font-size:7px;
       }
 
       .footercontentleft{
         display:block;
         width:85%;
+        font-size:9px;        
+        border:1px solid #000;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding:10px;
       }
 
       .footercontentmiddle{
         display:block;
         width:85%;
+        font-size:9px;
+        margin-top:5vh;
+        border:1px solid #000;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding:10px;
       }
 
       .footercontentright{
         display:block;
         width:85%;
+        font-size:9px;
+        margin-top:5vh;
+        border:1px solid #000;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding:10px;
       }
+
+      .paymentlogocontainer{
+        display:inline;
+    }
+    
 
       .paymentlogo{
+        display:inline-block;
         width:23%;
+        height:40px;
+        padding:0px;
+      
       }
-      .paymentlogopicture{
 
-        height:200px;
-        border:solid 1px black;
+      img.paymentlogopicture{
+        width:60%;
+        height:60%;
+        margin-top:6vh;
+
+
    
     }
   }
   
   /* Small devices (phones, ≤600px) */
-  @media (max-width: 600px) {
+  @media (min-width:375px) and (max-width: 600px) {
     .theinsideheaderleft{
         display:none;
       }
@@ -282,19 +311,67 @@ h1{
         display:none;
     }
 
-
-      .footercontent{
+    .thefootercontainer{
         display:block;
-        width:100%;
-        
-        font-size:6px;
-        margin:5px;
-        padding:5px;
     }
 
-      .paymentlogopicture{
-        width:12px;
-        height:12px;
+    .footercontent{
+        font-size:9px;
+        display:block;
+      }
+
+      .footercontentleft{
+        display:block;
+        width:90%;
+        font-size:9px;        
+        border:1px solid #000;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding:10px;
+      }
+
+      .footercontentmiddle{
+        display:block;
+        width:90%;
+        font-size:9px;
+        margin-top:5vh;
+        border:1px solid #000;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding:10px;
+      }
+
+      .footercontentright{
+        display:block;
+        width:90%;
+        font-size:9px;
+        margin-top:5vh;
+        border:1px solid #000;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding:10px;
+      }
+
+      .paymentlogocontainer{
+        display:inline;
+    }
+    
+
+      .paymentlogo{
+        display:inline-block;
+        width:23%;
+        height:40px;
+        padding:0px;
+      
+      }
+
+      img.paymentlogopicture{
+        width:60%;
+        height:75%;
+        margin-top:6vh;
+
+
+   
     }
 
 
