@@ -484,11 +484,24 @@
     }
 
     .aboutintrotext{
-        font-size:1.2em;
+        font-size:0.8em;
     }
 
     .aboutintrointrotext{
-        font-size:0.8em;
+        font-size:0.6em;
+        margin-bottom:0.9em;
+    }
+
+    .theskillscontainer{
+        height:70vh;
+    }
+
+    .skill-name{
+        font-size:0.6em;
+    }
+
+    .skill-percentage{
+        font-size:0.6em;
     }
 
     .segment-header{
@@ -497,12 +510,12 @@
     }
     
     .segment-title {
-        font-size: 1.2em;
+        font-size: 1em;
         text-align:left;
     }
 
     .expand-button{
-        font-size:1em;
+        font-size:0.7em;
     }
 
     .segment-text{

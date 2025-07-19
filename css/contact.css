@@ -91,3 +91,28 @@
 .address{
     margin-left:35px;
 }
+
+
+@media (max-width: 375px){
+    .contacttitletext{
+        font-size:2em;
+    }
+
+    .thecontactform{
+        font-size:0.9em;
+        width:80%;
+    }
+
+    .mapcontainer{
+        display:block;
+        font-size:1em;
+    }
+
+    .address{
+        font-size:1em;
+    }
+
+    .phone{
+        font-size:0.7em;
+    }
+}
