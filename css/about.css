@@ -480,6 +480,7 @@
         margin:10px;
         padding:10px;
         text-align:center;
+        background-position: 80% 40%;
     }
 
     .aboutintrotext{
@@ -506,6 +507,15 @@
 
     .segment-text{
         font-size:0.8em;
+    }
+
+    .segment{
+        background: rgba(255, 255, 255, 0.5);
+    } 
+    
+
+    .segment::before {
+        background: rgba(255, 255, 255, 0.5);
     }
     
     .segment-icon {
