@@ -203,7 +203,7 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -218,7 +218,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.3);
     pointer-events: none;
 }
 
@@ -523,12 +523,12 @@
     }
 
     .segment{
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.3);
     } 
     
 
     .segment::before {
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.3);
     }
     
     .segment-icon {
