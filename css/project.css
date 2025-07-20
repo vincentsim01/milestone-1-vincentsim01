@@ -124,7 +124,7 @@
 
 .projectcontenttext.expanded{
     height:auto;
-    width:200vh;
+    width:180vh;
     padding:10px;
     overflow:visible;
     position:absolute;
@@ -141,7 +141,7 @@
 
 .projectdetail{
     display:inline-block;
-    width:25%;
+    width:23%;
     border:solid 1px black;
 }
 
