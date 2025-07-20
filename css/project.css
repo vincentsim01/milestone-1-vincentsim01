@@ -78,7 +78,7 @@
     text-align: center;
     vertical-align: middle;
     padding:15px;
-    height:100vh;
+    height:auto;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -114,6 +114,10 @@
 .projectcontenttext{
     overflow:hidden;
     height:0px;
+    width:100%;
+    background-color:white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .projectcontenttext.expanded{
@@ -634,6 +638,9 @@
 
     .projectcontenttext{
         font-size:0.6em;
+        width:100%;
+        position:relative;
+
     }
 
     .theprojectcontent2inside{
