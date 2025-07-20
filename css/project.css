@@ -101,8 +101,26 @@
     border-bottom-left-radius: 30px;
     padding: 10px;
     margin: 10px;
+    cursor:pointer;
 
 }
+
+.theprojectcontent2insidebutton:hover{
+    background:rgb(0, 0, 0,0.3);
+    transform:scale(1.02);
+}
+
+
+.projectcontenttext{
+    overflow:hidden;
+    height:0px;
+}
+
+.projectcontenttext.expanded{
+    height:200px;
+    overflow:visible;
+}
+
 .thecontactparagraph{
     font-size: 20px;
     font-weight: bold;
@@ -606,6 +624,10 @@
         display:block;
         width:83%;
         margin:0px;
+    }
+
+    .projectcontenttext{
+        font-size:0.6em;
     }
 
     .content{

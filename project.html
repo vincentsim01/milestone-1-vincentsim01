@@ -83,20 +83,37 @@
     <div class="theprojectcontent2inside">
         <img src="https://i.ibb.co/pjKQpb2n/images.jpg" class="theprojectcontent2insideimage" alt="Project 1">
         <h2>Software Development</h2>
-        <p>This is the first project from software development</p>
-        <button class="theprojectcontent2insidebutton">View Project</button>
+
+        <button class="theprojectcontent2insidebutton" onclick="togglecontenttext('software')">View Project</button>
+
+        <div class="projectcontenttext" id="softwareprojectcontenttext">
+            This is the first project from software development. There are many projects such as Toko Santosa Makmur. Toko A. Toko B
+        </div>
+
+
     </div>
     <div class="theprojectcontent2inside">
         <img src="https://i.ibb.co/YFMmk9Vd/images-marketing.jpg" title="digital marketing"class="theprojectcontent2insideimage" alt="Project 2">
         <h2>Digital Marketing</h2>
-        <p>This is the second project from digital marketing</p>
-        <button class="theprojectcontent2insidebutton">View Project</button>
+        <button class="theprojectcontent2insidebutton" onclick="togglecontenttext('marketing')">View Project</button>
+
+        <div class="projectcontenttext" id="marketingprojectcontenttext">
+            This is the second project from digital marketing. I Optimized campaign from company A, company B, company C
+        </div>
+
+
     </div>
     <div class="theprojectcontent2inside">
         <img src="https://i.ibb.co/qLYYQ0Cm/seo.png" class="theprojectcontent2insideimage" alt="Project 3">
-        <h2>SEO</h2>
-        <p>This is the Third project from SEO</p>
-        <button class="theprojectcontent2insidebutton">View Project</button>
+        <h2>Image Editing</h2>
+
+        <button class="theprojectcontent2insidebutton" onclick="togglecontenttext('image')">View Project</button>
+
+        <div class="projectcontenttext" id="imageprojectcontenttext">
+            This is the Third project from Image Editing. I edited image A, image B, image C. Lorem ipsum van dusci miuis
+        </div>
+
+
     </div>
     <div class="theprojectcontent2right"></div>
 </div>
@@ -300,6 +317,7 @@
             </div>
         </div>
     </footer> --> 
+<script src="./js/projectscript.js"></script>
 <script src="./js/script.js"></script>
 </body>
 </html>
