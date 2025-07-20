@@ -38,6 +38,11 @@
     background-color: #f0f0f0;
 }
 
+.phoneicon{
+    width: 30vh; 
+    height: 30vh;
+}
+
 .phone{
     display:flex;
     align-items: center;
@@ -45,6 +50,49 @@
     text-align: center;
     border-radius: 10px;
     padding: 10px;
+}
+
+.phonetext{
+
+    font-size: 50px; 
+    font-weight: bold;
+}
+
+.mapembed{
+    width:60vh;
+    height:50vh;
+}
+
+
+.emailcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+
+.emailicon{
+    width: 30vh; 
+    height: 30vh;
+}
+
+.email{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.emailtext{
+
+    font-size: 50px; 
+    font-weight: bold;
 }
      
 .thecontactformcontainer{
@@ -103,9 +151,34 @@
         width:80%;
     }
 
+    .mapembed{
+        width:100%;
+  
+    }
+
     .mapcontainer{
         display:block;
-        font-size:1em;
+        font-size:0.8em;
+    }
+
+    .phoneicon{
+        width: 7vh; 
+        height: 7vh;
+    }
+
+    .phonetext{
+        font-size: 10px; 
+        font-weight: bold;
+    }
+
+    .emailicon{
+        width: 7vh; 
+        height: 7vh;
+    }
+
+    .emailtext{
+        font-size: 10px; 
+        font-weight: bold;
     }
 
     .address{
