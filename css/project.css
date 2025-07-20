@@ -71,6 +71,7 @@
 
 .theprojectcontent2inside{
     display:inline-block;
+    /* position:relative; */
     width:30%;
     margin:5px;
     border: 1px solid #000;
@@ -114,15 +115,21 @@
 .projectcontenttext{
     overflow:hidden;
     height:0px;
-    width:100%;
-    background-color:white;
+    color:white;
+    background-color:rgba(0,0,0);
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
+
 }
 
 .projectcontenttext.expanded{
-    height:200px;
+    height:auto;
+    width:200vh;
+    padding:10px;
     overflow:visible;
+    position:absolute;
+    left:5%;
+    border:solid 1px black;
 }
 
 .thecontactparagraph{
@@ -627,7 +634,8 @@
     .theprojectcontent2inside{
         display:block;
         width:90%;
-        height:70vh;
+        height:auto;
+        /* position:relative; */
     }
 
     .timelinecontainer{
@@ -638,13 +646,22 @@
 
     .projectcontenttext{
         font-size:0.6em;
-        width:100%;
-        position:relative;
+        width:90%;
+        /* position:absolute; */
+        /* left:0%; */
 
     }
 
     .theprojectcontent2inside{
         height:auto;
+    }
+
+    .projectcontenttext.expanded{
+        height:auto;
+        position:relative;
+        width:100%;
+        padding:5px;
+        overflow:visible;
     }
 
     .content{
