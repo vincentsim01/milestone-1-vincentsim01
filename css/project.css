@@ -134,6 +134,11 @@
     color: white;
 }
 
+.staricon{
+    width:50%;
+}
+
+
 .timeline {
     position: relative;
     margin: 2rem 0;
@@ -488,6 +493,7 @@
 
 
 
+
 .skills-container {
     border-radius: 15px;
     padding: 40px;
@@ -628,6 +634,10 @@
 
     .projectcontenttext{
         font-size:0.6em;
+    }
+
+    .theprojectcontent2inside{
+        height:auto;
     }
 
     .content{
