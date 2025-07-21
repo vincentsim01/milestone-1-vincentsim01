@@ -696,14 +696,18 @@
 
     .projectcontenttext{
         max-height:0px;
-        transition: max-height 0.1s ease;
+        display:flex;
+        flex-direction: column;
+        transition: all 0s;
+        /* transition: max-height 0.1s ease; */
     }
 
     .projectcontenttext.expanded{
-        display:block;
+        /* display:flex; */
         max-height:auto;
         position:relative;
         width:90%;
+        left:0%;
         
         /* padding:5px; */
         overflow:visible;
