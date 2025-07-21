@@ -120,10 +120,13 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     z-index:2;
+    transition: height 0.5s ease, padding 0.3s ease;
+
+
 }
 
 .projectcontenttext.expanded{
-    height:auto;
+    height:100vh;
     width:180vh;
     padding:10px;
     overflow:visible;
@@ -132,6 +135,8 @@
     display:block;
     flex-direction:row;
     border:solid 1px black;
+    /* transition: max-height 2s ease, padding 0.3s ease; */
+   
 }
 
 .extractall{
