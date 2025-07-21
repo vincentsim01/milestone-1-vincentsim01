@@ -114,19 +114,19 @@
 
 .projectcontenttext{
     overflow:hidden;
-    height:0px;
+    max-height:0px;
     color:rgb(0, 0, 0);
     background-color:rgb(255, 255, 255);
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     z-index:2;
-    transition: height 0.5s ease, padding 0.3s ease;
+    transition: max-height 1s ease, padding 0.3s ease;
 
 
 }
 
 .projectcontenttext.expanded{
-    height:100vh;
+    max-height:100vh;
     width:180vh;
     padding:10px;
     overflow:visible;
