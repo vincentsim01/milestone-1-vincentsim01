@@ -122,25 +122,25 @@
     border-bottom-left-radius: 10px;
     z-index:2;
     /* border:solid 1px black; */
-    transition: max-height 0.5s ease, width 0.5s ease;
+    /* transition: max-height 0.5s ease, width 0.5s ease; */
 
 
 }
 
 .projectcontenttext.expanded{
-    max-height:90%;
+    max-height:100%;
     width:180vh;
     padding:10px;
-    overflow:visible;
+    overflow:scroll;
     position:absolute;
     left:5%;
     z-index:2;
     display:flex;
     gap:3%;
     flex-direction:column;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    /* border:solid 1px black; */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:solid 1px black;
     /* transition: max-height 2s ease, padding 0.3s ease; */
    
 }
@@ -168,7 +168,7 @@
 }
 
 .projectdetailimage{
-    width:30%;
+    width:70%;
 }
 
 .thecontactparagraph{
