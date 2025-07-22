@@ -138,7 +138,7 @@
     display:flex;
     gap:3%;
     flex-direction:column;
-    justify-content: center;
+    /* justify-content: center; */
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border:solid 1px black;
