@@ -790,12 +790,15 @@
     }
 
     .myprojectcontenttitle{
-        font-size:12px;
+        font-size:3em;
     }
 
     .theprojectcontent2insideimage{
-        width80%;
+        width:80%;
+        height:auto;
     }
+
+    
 
     .projectdetailimage{
         width:40%;
@@ -803,6 +806,7 @@
 
     .extractall{
         width:50%;
+        font-size:6px;
     }
 }
 
