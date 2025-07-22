@@ -138,6 +138,7 @@
     display:flex;
     gap:3%;
     flex-direction:column;
+    justify-content: center;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border:solid 1px black;
@@ -183,6 +184,12 @@
     border-bottom-left-radius: 10px;
     box-shadow: 0 0 20px rgba(255,255,255,0.5);
 
+}
+
+.buttonprojectdetailcontainer{
+    display:block;
+    text-align: center;
+    left:10%;
 }
 
 .thecontactparagraph{
