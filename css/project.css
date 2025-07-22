@@ -765,6 +765,25 @@
     .theprojectcontent2inside h2{
         font-size:20px;
     }
+
+    .projectcontenttext{
+        max-height:0px;
+        
+        flex-direction: column;
+        transition: all 0s;
+        /* transition: max-height 0.1s ease; */
+    }
+
+    .projectcontenttext.expanded{
+        /* display:flex; */
+        max-height:auto;
+        position:absolute;
+        width:60%;
+        left:0%;
+        
+        /* padding:5px; */
+        overflow:visible;
+    }
 }
 
 
