@@ -789,6 +789,14 @@
         overflow:visible;
     }
 
+    .myprojectcontenttitle{
+        font-size:12px;
+    }
+
+    .theprojectcontent2insideimage{
+        width80%;
+    }
+
     .projectdetailimage{
         width:40%;
     }
