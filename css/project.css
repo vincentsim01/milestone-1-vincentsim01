@@ -759,7 +759,11 @@
 @media (min-width:375px) and (max-width: 768px){
 
     .theprojectcontent2inside{
-        width:25%;
+        width:26%;
+    }
+
+    .theprojectcontent2inside h2{
+        font-size:20px;
     }
 }
 
