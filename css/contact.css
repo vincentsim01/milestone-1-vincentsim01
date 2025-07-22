@@ -190,4 +190,22 @@
     }
 }
 
+@media (min-width:365px) and (max-width: 768px) {
+    .phoneicon{
+        width:10%;
+        height:auto;
+    }
+
+    .phonetext{
+        font-size:1em;
+    }
+
+    .emailicon{
+        width:10%;
+        height:auto;
+    }
+
+    .emailtext{
+        font-size:1em;
+    }
 }
