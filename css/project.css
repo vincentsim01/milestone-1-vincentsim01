@@ -768,6 +768,7 @@
 
     .projectcontenttext{
         max-height:0px;
+        font-size:10px;
         
         flex-direction: column;
         transition: all 0s;
@@ -783,6 +784,14 @@
         
         /* padding:5px; */
         overflow:visible;
+    }
+
+    .projectdetailimage{
+        width:50%;
+    }
+
+    .extractall{
+        width:50%;
     }
 }
 
