@@ -4,13 +4,16 @@ body{
     
 .theheader{
     display: flex; 
-    position: relative; 
-    padding: 10px; 
-    margin: 10px; 
-    border-radius: 10px; 
+    position: sticky;
+    top: 0;
+    padding:20px;
+
     font-size: 13px; 
     font-weight: bold;
     align-items: center;
+    z-index:3;
+    /* width:100vh; */
+    background:white;
 }
     
 .theinsideheader{
