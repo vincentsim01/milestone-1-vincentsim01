@@ -72,7 +72,7 @@
 .theprojectcontent2inside{
     display:inline-block;
     /* position:relative; */
-    width:30%;
+    width:28%;
     margin:5px;
     border: 1px solid #000;
     border-radius: 10px;
@@ -759,16 +759,16 @@
 @media (min-width:375px) and (max-width: 768px){
 
     .theprojectcontent2inside{
-        width:26%;
+        width:22%;
     }
 
     .theprojectcontent2inside h2{
-        font-size:20px;
+        font-size:1em;
     }
 
     .projectcontenttext{
         max-height:0px;
-        font-size:8px;
+        font-size:0.7em;
         
         flex-direction: column;
         transition: all 0s;
