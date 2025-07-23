@@ -12,6 +12,12 @@
     overflow: hidden;
     border-radius: 10px;
     margin: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#contactformsection{
+    padding:10em;
 }
 
 .socialmedia{
@@ -59,6 +65,11 @@
     padding: 10px;
 }
 
+.phone:hover{
+    transform:scale(1.05)
+}
+}
+
 /* .phonetext{
     font-weight: bold;
 } */
@@ -94,6 +105,11 @@
     padding: 10px;
 }
 
+.email:hover{
+    transform:scale(1.05)
+}
+}
+
 /* .emailtext{
     font-weight: bold;
 } */
@@ -101,28 +117,34 @@
 .thecontactformcontainer{
     display:block;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     background-color: #f0f0f0;
     background-image: url('https://i.ibb.co/4R75Q55Q/5968949.jpg');
+
     border: 1px solid #000;
     border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
     background-repeat: none;
     background-size: cover;
+}
+
+.justtext{
+    display:inline-block;
+    width:30%;
 }
     
 .thecontactform{
     display:inline-block;
     text-align: center;
     border: 1px solid #000;
-    width:50%;
+    width:65%;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
     background-color: white;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 12px 12px 2px 1px rgb( 0 0 0 / 0.2);
 }
     
 .thecontactinput{
@@ -236,9 +258,34 @@ textarea{
     .phone{
         font-size:0.7em;
     }
+
+    #contactformsection{
+        padding:1em;
+    }
+
+    .thecontactformcontainer{
+        width:90%;
+        display:block;
+        justify-content: center;
+        align-items:center;
+        text-align:center;
+        font-size: 0.6em;
+        padding:0.1em;
+    }
+
+    .formbutton{
+        font-size:0.5em;
+    }
+
+    .justtext{
+        display:block;
+        width:100%;
+        text-align:center;
+    }
+
 }
 
-@media (min-width:365px) and (max-width: 768px) {
+@media (min-width:365px) and (max-width: 800px) {
     .phoneicon{
         width:10%;
         height:auto;
@@ -259,5 +306,39 @@ textarea{
 
     .address{
         font-size:0.7em;
+    }
+
+    #contactformsection{
+        /* padding:1em; */
+        display:block;
+        /* border:solid 1px black; */
+        width:90%;
+        padding:5px;
+    }
+
+    .thecontactform{
+        /* width:100vh; */
+        display:block;
+        width:100%;
+
+    }
+
+    .thecontactformcontainer{
+        width:90%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        font-size: 0.6em;
+        padding:0.1em;
+    }
+
+    .formbutton{
+        font-size:0.5em;
+    }
+
+    .justtext{
+        display:block;
+        width:100%;
+        text-align:center;
     }
 }
