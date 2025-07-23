@@ -122,7 +122,38 @@
 .thecontactinput{
     border-radius: 5px;
     margin: 5px;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
 
+}
+
+.thecontactinput:focus{
+
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+
+
+}
+
+textarea{
+    font-family:monospace;
+}
+
+.formbutton{
+    background: transparent;
+    color:black;
+    font-family: michroma;
+    font-size: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    cursor:pointer;
+    width:25%;
 }
 
 .mapcontainer{

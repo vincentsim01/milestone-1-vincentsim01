@@ -41,6 +41,10 @@ body{
     display:none;
 }
 
+textarea{
+    font-family:michroma, "noto sans";
+}
+
 .menunavburgercontainer{
     width:30%;
     width:100px;
