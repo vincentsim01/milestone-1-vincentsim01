@@ -63,18 +63,20 @@
 .theprojectcontent2 {
     display:block;
     border: 1px solid #000;
-    background-color: #f0f0f0;
+    background-color: #000000;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    
 }
 
 .theprojectcontent2inside{
     display:inline-block;
     /* position:relative; */
     width:28%;
+    color:white;
     margin:5px;
-    border: 1px solid #000;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     text-align: center;
     vertical-align: middle;
@@ -89,15 +91,16 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     width:80%;
     height:250px;
+    text-shadow: white;
 }
 
 .theprojectcontent2insidebutton{
     background: transparent;
-    color:black;
+    color:white;
     font-family: michroma;
     font-size: 10px;
     font-weight: bold;
-    border: 2px solid black;
+    border: 2px solid white;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     padding: 10px;
@@ -107,7 +110,7 @@
 }
 
 .theprojectcontent2insidebutton:hover{
-    background:rgb(0, 0, 0,0.3);
+    background:rgba(173, 171, 171, 0.3);
     transform:scale(1.02);
 }
 
@@ -804,6 +807,7 @@
     .theprojectcontent2insideimage{
         width:80%;
         height:auto;
+        background:white;
     }
 
     
