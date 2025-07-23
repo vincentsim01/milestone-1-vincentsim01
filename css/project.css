@@ -120,7 +120,7 @@
     background-color:rgb(255, 255, 255);
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    z-index:2;
+    z-index:5;
     /* border:solid 1px black; */
     /* transition: max-height 0.5s ease, width 0.5s ease; */
 
@@ -134,7 +134,7 @@
     overflow:scroll;
     position:absolute;
     left:5%;
-    z-index:2;
+    z-index:5;
     display:flex;
     gap:3%;
     flex-direction:column;
@@ -208,6 +208,12 @@
 
 .staricon{
     width:50%;
+}
+
+.timelinecontainer{
+    position:relative;
+    display:block;
+    z-index:-1;
 }
 
 
@@ -394,6 +400,7 @@
     padding:30px;
     border: solid black 1px;
     border-radius:10px;
+
 }
 
 
