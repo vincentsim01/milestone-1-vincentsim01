@@ -327,6 +327,11 @@
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
+.socialmedia{
+    display:flex;
+    justify-content: center;
+}
+
 .theskillscontainer{
     display:flex;
     position:relative;

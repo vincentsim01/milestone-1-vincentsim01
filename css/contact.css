@@ -14,6 +14,12 @@
     margin: 10px;
 }
 
+.socialmedia{
+    display:flex;
+    justify-content: center;
+}
+
+
 .contactoverlay {
     position: absolute;
     top: 0; left: 0;
