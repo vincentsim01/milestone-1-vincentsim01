@@ -187,9 +187,22 @@ h1{
     padding:5px;
 }
 
+.footercontentinside{
+    margin-left:5%;
+    margin-right:5%;
+}
+
 .footercontentleft{
     display:inline-block;
     width:30%;
+}
+
+.footercontentleft h3{
+    font-size:1em;
+}
+
+.footercontentleft p{
+    font-size:0.7em;
 }
 
 .footercontentmiddle{
@@ -197,9 +210,29 @@ h1{
     width:30%;
 }
 
+.footercontentmiddle h3{
+    font-size:1em;
+    margin-bottom:0.7em;
+}
+
+.footercontentmiddle p{
+    font-size:0.7em;
+    margin-top:0.7em;
+}
+
+
 .footercontentright{
     display:inline-block;
     width:30%;
+}
+
+.footercontentright h3{
+    font-size:1em;
+}
+
+.footercontentright p{
+    font-size:0.7em;
+    margin-top:0.7em;
 }
 
 .paymentlogocontainer{
