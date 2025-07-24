@@ -319,7 +319,7 @@ td{
 
 .pricetext{
     text-align:center;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     color:white;
     padding:5px;
     border-radius:10px;
