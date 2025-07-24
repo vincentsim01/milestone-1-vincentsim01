@@ -800,7 +800,12 @@
 @media (min-width:375px) and (max-width: 768px){
 
     .theprojectcontent2inside{
-        width:30%;
+        display:flex;
+        width:95%;
+        height:auto;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
     }
 
     .theprojectcontent2inside h2{
@@ -821,10 +826,10 @@
     .projectcontenttext.expanded{
         /* display:flex; */
         max-height:auto;
-        position:absolute;
-        width:90%;
+        position:relative;
+        width:98%;
         left:0%;
-        padding:10px;
+        padding:5%;
         
         
         /* padding:5px; */
@@ -842,10 +847,19 @@
         background:white;
     }
 
+    .projectdetail{
+        padding:5%;
+    }
+
     
 
     .projectdetailimage{
-        width:40%;
+        width:80%;
+    }
+
+    .projectdetailtitle{
+        width:35%;
+        display:inline-block;
     }
 
     .extractall{
