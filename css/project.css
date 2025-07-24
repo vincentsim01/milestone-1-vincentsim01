@@ -128,27 +128,31 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     z-index:5;
-    /* border:solid 1px black; */
-    /* transition: max-height 0.5s ease, width 0.5s ease; */
 
 
-}
-
-.projectcontenttext.expanded{
-    max-height:100%;
-    width:180vh;
-    padding:10px;
-    overflow:scroll;
     position:absolute;
     left:5%;
     z-index:5;
     display:flex;
     gap:3%;
     flex-direction:column;
-    /* justify-content: center; */
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border:solid 1px black;
+    /* border:solid 1px black; */
+    transition: max-height 0.5s ease;
+
+
+}
+
+.projectcontenttext.expanded{
+    max-height:100%;
+    overflow:scroll;
+    padding:10px;
+    /* width:200vh; */
+    
+    /* justify-content: center; */
+
     /* transition: max-height 2s ease, padding 0.3s ease; */
    
 }
@@ -176,13 +180,13 @@
     display:flex;
     justify-content:space-evenly;
     align-items: center;
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:1%;
+    margin-bottom:1%;
     /* width:23%; */
     border:solid 1px black;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    box-shadow: 0 0 20px rgba(255,255,255,0.5);
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.8);
     padding:10px;
 }
 
@@ -702,23 +706,27 @@
 @media (max-width:375px){
     .theprojectcontent2{
         display:block;
-        width:90%;
+        width:100%;
+        margin:0px;
+        border-radius:0px;
     }
 
     .myprojectcontenttitle{
         font-size:2em;
     }
+    
 
     .theprojectcontent2inside{
         display:block;
-        width:90%;
+        width:100%;
         height:auto;
+        margin-bottom:3%;
         /* position:relative; */
     }
 
     .timelinecontainer{
         display:block;
-        width:83%;
+        width:97%;
         margin:0px;
     }
 
@@ -731,8 +739,18 @@
 
     }
 
+    .theprojectcontent2insideimage{
+        width:95%;
+        height:20vh;
+    }
+
+
     .theprojectcontent2inside{
         height:auto;
+    }
+
+    .theprojectcontent2inside h2{
+        font-size:0.8em;
     }
 
     .projectcontenttext{
@@ -782,6 +800,7 @@
     .theprojectcontent2inside h2{
         font-size:1em;
     }
+
 
     .projectcontenttext{
         max-height:0px;
