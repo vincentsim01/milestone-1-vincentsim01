@@ -75,7 +75,7 @@
     /* position:relative; */
     width:28%;
     color:white;
-    margin:5px;
+    margin-left:2%;
     border: 1px solid #ffffff;
     border-radius: 10px;
     text-align: center;
@@ -89,9 +89,13 @@
     border-radius: 15px;
     border: 1px solid #000;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    width:80%;
-    height:250px;
+    width:90%;
+    height:40vh;
     text-shadow: white;
+}
+
+.theprojectcontent2inside h2{
+    font-size:1.3em;
 }
 
 .theprojectcontent2insidebutton{
@@ -210,7 +214,9 @@
 }
 
 .staricon{
-    width:50%;
+    width:30%;
+    position:relative;
+    left:30%;
     animation: starry 1s infinite;
 }
 
@@ -770,7 +776,7 @@
 @media (min-width:375px) and (max-width: 768px){
 
     .theprojectcontent2inside{
-        width:22%;
+        width:30%;
     }
 
     .theprojectcontent2inside h2{
