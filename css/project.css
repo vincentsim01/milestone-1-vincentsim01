@@ -1,3 +1,9 @@
+.socialmedia{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .bannerproject{
     position: relative;
     background-image: url('https://i.ibb.co/bMcyV9JQ/project.jpg');

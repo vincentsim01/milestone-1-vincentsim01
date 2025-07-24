@@ -192,6 +192,11 @@ h1{
     margin-right:5%;
 }
 
+.footercontentinside p:hover{
+    text-decoration: underline;
+    text-shadow:#000 3px 3px;
+}
+
 .footercontentleft{
     display:inline-block;
     width:30%;
