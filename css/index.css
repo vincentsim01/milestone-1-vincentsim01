@@ -240,7 +240,14 @@ td{
     border-bottom-left-radius: 30px;
     padding: 10px;
     margin: 10px;
+    transition:width 2s;
 
+}
+
+
+.skillbutton:hover{
+    transform:scale(1.1);
+    width:80%;
 }
 
 .skills-title {
@@ -310,6 +317,7 @@ td{
 
 .logocontent{
     width:20%;
+    animation: chooseCharacter 1s infinite;
 }
 
 .texttitle{
@@ -324,6 +332,12 @@ td{
     padding:5px;
     border-radius:10px;
     box-shadow:5px 4px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pricetext:hover{
+    transform:scale(1.1);
+    background-color: rgb(74, 74, 74);
+    box-shadow:5px 6px 6px 5px rgba(248, 101, 101, 0.2);
 }
 
 @media (max-width: 375px){
@@ -625,6 +639,22 @@ td{
     }
 }
 
+
+
+@keyframes chooseCharacter {
+    0% {
+      transform: translateY(0) scale(1);
+    }
+    30% {
+      transform: translateY(-10px) scale(1.05);
+    }
+    60% {
+      transform: translateY(0) scale(0.98);
+    }
+    100% {
+      transform: translateY(0) scale(1);
+    }
+  }
 
 
 
