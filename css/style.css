@@ -241,12 +241,13 @@ h1{
 }
 
 .paymentlogocontainer{
-    display:inline;
+    display:flex;
+    justify-content: center;
 }
 
 .paymentlogo{
     display:inline-block;
-    width:22%;
+    width:10%;
 }
 
 .paymentlogopicture{
