@@ -17,14 +17,9 @@
     text-align: center;
     overflow: hidden;
     width:100%;
-    /* border-radius: 10px; */
-    /* margin: 10px; */
     margin-bottom:10px;
-
 }
 
-
-  
 .projectnavigationcontainer{
     display:block;
     position:relative;
@@ -82,7 +77,6 @@
 
 .theprojectcontent2inside{
     display:inline-block;
-    /* position:relative; */
     width:28%;
     color:white;
     margin-left:2%;
@@ -120,7 +114,6 @@
     padding: 10px;
     margin: 10px;
     cursor:pointer;
-
 }
 
 .theprojectcontent2insidebutton:hover{
@@ -138,8 +131,6 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     z-index:5;
-
-
     position:absolute;
     left:5%;
     z-index:5;
@@ -149,22 +140,13 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border:solid 1px black;
-    /* border:solid 1px black; */
     transition: max-height 0.5s ease;
-
-
 }
 
 .projectcontenttext.expanded{
     max-height:100%;
     overflow:scroll;
     padding:10px;
-    /* width:200vh; */
-    
-    /* justify-content: center; */
-
-    /* transition: max-height 2s ease, padding 0.3s ease; */
-   
 }
 
 .extractall{
@@ -178,7 +160,6 @@
     position:relative;
     left:20%;
     border:solid 1px black;
-
 }
 
 .extractall:hover{
@@ -192,7 +173,6 @@
     align-items: center;
     margin-top:1%;
     margin-bottom:1%;
-    /* width:23%; */
     border:solid 1px black;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -205,7 +185,6 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     box-shadow: 0 0 20px rgba(255,255,255,0.5);
-
 }
 
 .buttonprojectdetailcontainer{
@@ -427,13 +406,6 @@
 
 }
 
-
-
-
-
-
-
-
 .about-container {
     max-width: 800px;
     margin: 0 auto;
@@ -594,9 +566,6 @@
     height:100vh;
 }
 
-
-
-
 .skills-container {
     border-radius: 15px;
     padding: 40px;
@@ -702,10 +671,6 @@
         transform: translateX(-100%); 
         transform: translateY(-100%);
     }
-    /* 50% { 
-        transform: translateX(-50%);
-        transform: translateY(-50%); 
-    } */
     100% { 
         transform: translateX(0%); 
         transform: translateY(0%); 
@@ -725,13 +690,11 @@
         font-size:2em;
     }
     
-
     .theprojectcontent2inside{
         display:block;
         width:100%;
         height:auto;
         margin-bottom:3%;
-        /* position:relative; */
     }
 
     .timelinecontainer{
@@ -744,16 +707,12 @@
         font-size:0.6em;
         width:90%;
         flex-direction: column;
-        /* position:absolute; */
-        /* left:0%; */
-
     }
 
     .theprojectcontent2insideimage{
         width:95%;
         height:20vh;
     }
-
 
     .theprojectcontent2inside{
         height:auto;
@@ -768,17 +727,13 @@
         display:flex;
         flex-direction: column;
         transition: all 0s;
-        /* transition: max-height 0.1s ease; */
     }
 
     .projectcontenttext.expanded{
-        /* display:flex; */
         max-height:auto;
         position:relative;
         width:90%;
         left:0%;
-        
-        /* padding:5px; */
         overflow:visible;
     }
 
@@ -791,9 +746,6 @@
         display:block;
         width:100%;
         padding:10px;
-
-        /* width:30%; */
-        /* border:solid 1px black; */
     }
     
     .projectdetailimage{
@@ -808,7 +760,6 @@
         width:95%;
         height:auto;
         justify-content: center;
-        /* align-items: center; */
         flex-direction: column;
     }
 
@@ -820,28 +771,20 @@
     .projectcontenttext{
         max-height:0px;
         font-size:0.7em;
-        
         flex-direction: column;
         transition: all 0s;
-        /* padding:5px; */
-        /* transition: max-height 0.1s ease; */
     }
 
     .projectcontenttext.expanded{
-        /* display:flex; */
         max-height:auto;
         position:relative;
         width:98%;
         left:0%;
         padding:5%;
-        
-        
-        /* padding:5px; */
         overflow:visible;
     }
 
     .myprojectcontenttitle{
-        /* font-size: 24px; */
         font-size:80px;
     }
 
@@ -856,7 +799,6 @@
     }
 
     
-
     .projectdetailimage{
         width:80%;
     }
@@ -871,9 +813,6 @@
         font-size:6px;
     }
 }
-
-
-
 
 @keyframes starry {
     0%{
@@ -896,9 +835,7 @@
     100%{
         transform: translateX(0px);
         transform: translateY(0px);
-    }
-
-    
+    } 
 }
 
 @keyframes wiggle {

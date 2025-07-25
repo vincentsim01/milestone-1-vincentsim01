@@ -17,12 +17,8 @@
 }
 
 .aboutintro{
-    /* margin:20px; */
     padding:5em;
-    /* border:solid 1px black; */
     width:100%;
-    /* border-radius:10px; */
-    /* background-color:white; */
     background-image: url("https://i.ibb.co/BVCkmJFP/st-john-island.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,9 +29,6 @@
     flex-direction:column;
     align-items:center;
 }
-
-
-
 
 .theaboutinsideinside{
     display:flex;
@@ -86,12 +79,8 @@
 
 .gallerycontainer{
     border:solid 1px black;
-    /* background: #4d4848;
-    background: #000000; */
     padding:3em;
     border-radius: 2em;
-    /* background: linear-gradient(90deg, rgba(0, 0, 0, 1) 100%, rgba(240, 206, 206, 1) 82%, rgba(115, 115, 115, 1) 22%, rgba(3, 0, 0, 1) 55%); */
-    /* padding-bottom:3em; */
 }
 
 .gallerytitle{
@@ -106,11 +95,8 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    /* gap:5px; */
     width:100%;
     gap:0px;
-    /* padding:5px; */
-    /* border:solid 1px black; */
 }
 
 .galleryinsidecontainer img{
@@ -119,11 +105,7 @@
 }
 
 .galleryinsidecontainer img:nth-of-type(1){
-    /* grid-row: 1/4; */
-    /* grid-column:2/3; */
     border:1px solid pink;
-    /* grid-row:1/2; */
-    /* width:200px; */
 }
 
 .galleryinsidecontainer img:nth-of-type(2){
@@ -131,8 +113,6 @@
     grid-column:2/3;
     border:1px solid pink;
     height:300px;
-    /* grid-row:1/2; */
-    /* width:200px; */
 }
 
 .galleryinsidecontainer img:nth-of-type(3){
@@ -140,32 +120,16 @@
     grid-column:3/4;
     height:800px;
     border:1px solid pink;
-    /* width:500px; */
 }
 
 .galleryinsidecontainer img:nth-of-type(4){
     height: 400px;
     width:950px;
-    /* /* grid-row: 1/3; */
     grid-column:1/3; */
-    /* border:solid 1px black; */
-    /* border:1px solid black; */
-}
-
-.galleryinsidecontainer img:nth-of-type(5){
-    /* grid-column: 2/4; */
-    /* border:1px solid black; */
-}
-
-.galleryinsidecontainer img:nth-of-type(6){
-    /* grid-column: 2/4; */
-    /* border:1px solid black; */
 }
 
 .galleryimage{
     width:90%;
-    /* height:200px; */
-
 }
 
 .about-container {
@@ -366,8 +330,6 @@
     height:100vh;
 }
 
-
-
 .skills-container {
     border-radius: 15px;
     padding: 40px;
@@ -383,7 +345,6 @@
     width:100%;
     height:100%;
     background-color: rgba(0, 0, 0, 0.3);
-
 }
 
 .skills-title {
@@ -465,24 +426,16 @@
     to { width: var(--target-width); }
 }
 
-
-
-
 @keyframes tablemove {
     0% { 
         transform: translateX(-100%); 
         transform: translateY(-100%);
     }
-    /* 50% { 
-        transform: translateX(-50%);
-        transform: translateY(-50%); 
-    } */
     100% { 
         transform: translateX(0%); 
         transform: translateY(0%); 
     }
 }
-
 
 @media (max-width: 365px) {
     .about-container {
@@ -546,7 +499,6 @@
         background: rgba(255, 255, 255, 0.3);
     } 
     
-
     .segment::before {
         background: rgba(255, 255, 255, 0.3);
     }
@@ -559,7 +511,6 @@
 
     h1.aboutitle{
         font-size:2em;
-        /* border:1px solid black; */
     }
 
     .gallerycontainer{
@@ -605,7 +556,6 @@
     .gallerycontainer{
         display:block;
         width:95%;
-
         padding:2px;
     }
 
@@ -614,7 +564,6 @@
         width:90%;
         position:relative;
         left:8%;
-
     }
 
     .galleryimage{

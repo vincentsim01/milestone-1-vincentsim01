@@ -63,8 +63,6 @@ textarea{
     z-index:2;
     font-size:10px;
     cursor:pointer;
-    /* position:relative; */
-
 }
 
 .closeburgernav{
@@ -170,8 +168,6 @@ h1{
 .thefootercontainer{
     display:block;
     text-align: center;
-    /* border: 1px solid #000; */
-    /* border-radius: 10px; */
     padding: 20px;
     background-color: black;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -269,18 +265,16 @@ h1{
         display:block;
         width:35%;
         margin-right:5%;
-        /* border:solid 1px black; */
-        /* border:solid 1px black; */
     }
     .menuburger{
         display:block;
         width:3vh;
-    
     }
 
     .userimage{
         width:100%;
     }
+
     .searchinput{
         display: none;
         border:1px solid #000;
@@ -289,7 +283,6 @@ h1{
       .theinsideheaderright{
         display:block;
         width:30%;
-        /* border:solid 1 px black; */
       }
 
       .rightheadercontentcontainer{
@@ -367,9 +360,6 @@ h1{
         width:60%;
         height:60%;
         margin-top:6vh;
-
-
-   
     }
   }
   
@@ -378,14 +368,17 @@ h1{
     .theinsideheaderleft{
         display:none;
       }
+
     .menuburgercontainer{
         display:block;
         width:20%;
     }
+
     .menuburger{
         display:block;
         width:30px;
     }
+
     .logoimagecontainer{
         width:70%;
         text-align: center;
@@ -394,9 +387,11 @@ h1{
     .theinsideheaderright{
         width:10%;
     }
+
     .searchinput{
         display:none;
     }
+
     .searchicon{
         display:none;
     }
@@ -459,12 +454,7 @@ h1{
         width:60%;
         height:75%;
         margin-top:6vh;
-
-
-   
     }
-
-
   }
   
   /* Medium devices (tablets) */
@@ -537,11 +527,10 @@ h1{
         font-size:10px;
       }
 
-      .paymentlogopicture{
+    .paymentlogopicture{
         width:20px;
         height:20px;
     }
-
   }
   
   /* Extra large devices (desktops and up) */
