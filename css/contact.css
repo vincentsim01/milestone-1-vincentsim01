@@ -10,10 +10,12 @@
     justify-content: center;
     text-align: center;
     overflow: hidden;
-    border-radius: 10px;
-    margin: 10px;
+    width:100%;
+    /* border-radius: 10px; */
+    margin-bottom: 10px;
     padding: 20px;
     margin-bottom: 15px;
+
 }
 
 #contactformsection{
@@ -37,6 +39,7 @@
 .thecontactcontent{
     z-index:2;
     color:white;
+    animation: wiggle 2s ease-in-out;
 }
 
 .phonecontainer{
@@ -341,4 +344,18 @@ textarea{
         width:100%;
         text-align:center;
     }
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(2deg) translateX(1px); }
+    20% { transform: rotate(-2deg) translateX(-1px); }
+    30% { transform: rotate(1deg) translateY(1px); }
+    40% { transform: rotate(-1deg) translateY(-1px); }
+    50% { transform: rotate(2deg) translateX(-1px); }
+    60% { transform: rotate(-2deg) translateX(1px); }
+    70% { transform: rotate(1deg) translateY(-1px); }
+    80% { transform: rotate(-1deg) translateY(1px); }
+    90% { transform: rotate(1deg) translateX(1px); }
+    100% { transform: rotate(0deg); }
 }
