@@ -134,6 +134,11 @@
 
 .galleryimage{
     width:90%;
+    transition: transform 0.75s;
+}
+
+.galleryimage:hover{
+    transform:scale(1.05);
 }
 
 .about-container {
