@@ -30,7 +30,7 @@
 
 </head>
 <body class="font-michroma">
-     <header class="theheader flex justify-center sticky shadow-sm p-5">
+     <header class="theheader flex justify-center sticky shadow-lg p-5">
           <nav class="theinsideheaderleft w-4/9 hidden lg:inline-block">
                 <a href="index.html" class="thelinks hover:underline">HOME</a>
                 <a href="about.html" class="thelinks hover:underline">ABOUT</a>
@@ -63,45 +63,45 @@
     </div>
  </section>
 
-<section id="contactformsection">
-
-
- <div class="thecontactformcontainer">
-    <div class="justtext rounded-[10px] inline-block">
-        <div>Send Enquiry Here</div>
-        <div>Let's Sign Up</div>
-    </div>
-  <form action="/result.html" method="post" class="thecontactform ">
-    <h2> SEND YOUR ENQUIRY</h2>
+<section id="contactformsection" class=" bg-black text-white pl-2 pr-2 pb-5 md:p-7">
+ <div class="thecontactformcontainer block w-[95%] md:flex md:flex-row md:justify-center md:items-center">
+        <div class="justtext rounded-[10px] inline-block font-white mr-8 block w-full md:inline-block md:w-2/5">
+            <div class="p-5 text-3xl">ANY QUESTIONS?</div>
+            <div class="p-5">SEND YOUR INQUIRY HERE</div>
+        </div>
+        <form action="/result.html" method="post" class="text-[0.9em] md:text-2xl thecontactform border border-white rounded-tr-xl rounded-bl-xl p-3 md:p-7 ml-8 block w-[90%] md:inline-block md:w-3/5">
+            <h2 class="mb-7"> CONTACT ME</h2>   
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name" class="thecontactinput ml-5 border-b border-white w-[90%]">
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email" class="thecontactinput ml-5 border-b border-white w-[90%]">
+                <br><br>
+                <label for="age" id="age">Age</label>
+                <input type="number" id="age" name="age" required placeholder="Enter your age" class="thecontactinput ml-5 border-b border-white w-[90%]">
+                <br><br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Enter your message" class="thecontactinput  ml-5 border-b border-white w-[90%]"></textarea>
+                <br><br>
+                <label for="province" id="province">Province</label>
+                <select id="province" name="province" class="ml-5" required>
+                    <option class="bg-black" value="JAKARTA">JAKARTA</option>
+                    <option class="bg-black" value="JAWA BARAT">JAWA BARAT</option>
+                    <option class="bg-black" value="JAWA TENGAH">JAWA TENGAH</option>
+                </select>
+                <br><br>
+                <label for="gender" id="gender">Gender</label>
+                <input type="radio" id="gender" name="gender" value="male" class=" ml-5" required>
+                <label for="male">Male</label>
+                <input type="radio" id="gender" name="gender" value="female" class=" ml-5" required>
+                <label for="female">Female</label>
+                <br><br><br>
+                <div class="flex justify-end">
+                    <button type="submit" class="mr-5 p-2 formbutton border border-white cursor-pointer rounded-tr-xl rounded-bl-xl hover:bg-white hover:text-black">Submit</button>
+                    <button type="reset" class="ml-5 p-2 formbutton border border-white cursor-pointer rounded-tr-xl rounded-bl-xl hover:bg-white hover:text-black">Reset</button> 
+                </div>
         
-   <label for="name">Name</label>
-   <input type="text" id="name" name="name" required placeholder="Enter your name" class="thecontactinput">
-   <br><br>
-   <label for="email">Email</label>
-   <input type="email" id="email" name="email" required placeholder="Enter your email" class="thecontactinput">
-   <br><br>
-   <label for="age" id="age">Age</label>
-   <input type="number" id="age" name="age" required placeholder="Enter your age" class="thecontactinput">
-   <br><br>
-   <label for="message">Message</label>
-   <textarea id="message" name="message" required placeholder="Enter your message" class="thecontactinput"></textarea>
-   <br><br>
-   <label for="province" id="province">Province</label>
-   <select id="province" name="province" required>
-    <option value="JAKARTA">JAKARTA</option>
-    <option value="JAWA BARAT">JAWA BARAT</option>
-    <option value="JAWA TENGAH">JAWA TENGAH</option>
-   </select>
-   <br><br>
-   <label for="gender" id="gender">Gender</label>
-   <input type="radio" id="gender" name="gender" value="male"required>
-   <label for="male">Male</label>
-   <input type="radio" id="gender" name="gender" value="female" required>
-   <label for="female">Female</label>
-   <br><br>
-   <button type="submit" class="formbutton">Submit</button>
-   <button type="reset" class="formbutton">Reset</button>
-  </form>
+        </form>
 </div>
 </section>
 <section class="mapcontainer">
