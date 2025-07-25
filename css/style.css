@@ -3,18 +3,17 @@ body{
      margin:0px;
      padding:0px;
     }
-    
+
+    /* Header for navigation, logo, search and user */
 .theheader{
     display: flex; 
     position: sticky;
     top: 0;
     padding:20px;
-
     font-size: 13px; 
     font-weight: bold;
     align-items: center;
     z-index:3;
-    /* width:100vh; */
     background:white;
 }
     
