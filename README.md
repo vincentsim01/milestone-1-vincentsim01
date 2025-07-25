@@ -1,165 +1,175 @@
-Vincent Kiathadi - Portfolio Website
-A modern, responsive portfolio website built with HTML, CSS, and JavaScript to showcase Vincent Kiathadi's projects, skills, and professional journey.
-🌟 Overview
-This portfolio website serves as a comprehensive digital showcase for Vincent Kiathadi, featuring past projects, professional experience, and personal introduction. The site is designed with semantic HTML structure, modern CSS styling, and interactive JavaScript functionality.
-🚀 Features
-Homepage
+💼 Vincent Kiathadi's Portfolio
+Welcome to the personal portfolio of Vincent Kiathadi — a dynamic showcase of software development, digital marketing, and multimedia editing projects.
 
-Progress Bars: Visual representation of skills and competencies
-3-Column Layout: Organized content sections with semantic structure
-Full-Width Banner: Block-level display covering entire viewport width
-Responsive Design: Adapts to all screen sizes and devices
+Explore interactive animations, responsive layouts, and modern web design techniques powered by HTML, CSS, JavaScript, and Tailwind CSS. This project reflects Vincent’s dedication to creativity, functionality, and user experience.
 
-About Page
+🌐 Live Pages
+Home – Skill showcase, limited-time offers, responsive hero image with parallax
 
-Hero Banner: Background image implemented via CSS url() property
-Collapsible Sections: Interactive expandable content powered by JavaScript
-Personal Introduction: Detailed background and professional journey
-Timeline Integration: Visual representation of career progression
+About – Journey, travel gallery, animated text, expandable experience section
 
-Contact Page
+Contact – Form with validation, embedded Google Map, gradient background
 
-Contact Form: Comprehensive form with multiple input types:
+Projects – Animated project cards, expandable portfolio, creative timeline
 
-Text inputs for name and message
-Number input for phone
-Select dropdown for inquiry type
-Radio buttons for preferred contact method
+🖼️ Features Overview
+🏠 Home Page
+Stunning Hero Image + GIF
 
+CSS hover animations and flexbox layout
 
-Google Maps Integration: Embedded map for location reference
-Direct Contact Information: Email and phone number display
+Skills table: Software Development, Digital Marketing, Image/Video Editing
 
-Projects Page
+Limited-time service offers with responsive CSS Grid
 
-Project Showcase: Gallery of past work and achievements
-Interactive Timeline: Flowchart diagram showing Vincent's journey from birth to current professional status
-Project Details: Comprehensive descriptions and links to live projects
+Responsive design adapting to tablet (768px) and mobile (365px)
 
-🛠️ Technical Implementation
-Technologies Used
+Animated icons and parallax scroll via JavaScript (powered by Claude.ai)
 
-HTML5: Semantic markup for better accessibility and SEO
-CSS3: Modern styling with flexbox, grid, and animations
-JavaScript: Interactive functionality and DOM manipulation
-Google Maps API: Embedded map integration
+🙋 About Page
+Full-screen banner with overlay and animated text using @keyframes wiggle
 
-Development Approach
+Layouts built with position: relative/absolute and z-index
 
-AI-Assisted Development: Initial structure created with AI tools, then customized to meet specific requirements
-Semantic HTML: Proper use of HTML5 semantic elements (<header>, <nav>, <main>, <section>, <article>, <footer>)
-Responsive Design: Mobile-first approach with flexible layouts
-Progressive Enhancement: Core functionality works without JavaScript
+Gallery montage using grid with image span
 
-Design System
+Expandable education, work, and life story sections
 
-Consistent Spacing: 10px margin and padding across all sections
-Unified Borders: 1px solid black borders with 10px border-radius
-Color Scheme: Professional color palette with accent colors
-Typography: Clean, readable font choices with proper hierarchy
+Responsive shift from grid to block for smaller screens
+
+📬 Contact Page
+Hero banner with contrast overlay and animated text
+
+Responsive contact form with styled inputs, shadows, and validation:
+
+Text, email, number, radio, textarea, select
+
+Embedded Google Maps and contact info
+
+Hover effects, linear gradient backgrounds, flexbox layout
+
+Tailwind for border radius, text sizing
+
+🚀 Projects Page
+Large hero banner with parallax & text animation
+
+Three featured projects with GIFs and animated stars
+
+Toggleable portfolio section with smooth transitions
+
+Timeline with floating boxes and wavy line path (by Claude.ai)
+
+📌 Header & Footer
+🧭 Header
+Built with display: flex and sticky position
+
+Collapsible burger menu for mobile/tablet screens
+
+Navigation, logo, search & user (search/user still in development)
+
+Icons via Logo.com & Freepik
+
+🔻 Footer
+Icons from Font Awesome
+
+Responsive structure using flex and block
+
+Hover effects for interactive feedback
+
+🔧 Technology Stack
+HTML/CSS/JavaScript
+
+Tailwind CSS
+
+Claude.ai (Animation & interactivity support)
+
+ChatGPT (Structure & logic assistance)
+
+Font Awesome (Icons)
+
+Google Fonts (Michroma)
+
+imgbb (Image hosting)
 
 📁 Project Structure
-portfolio-website/
-├── index.html              # Homepage
-├── about.html              # About page
-├── contact.html            # Contact page
-├── projects.html           # Projects showcase
+pgsql
+Copy
+Edit
+📁 vincent-portfolio/
+├── index.html
+├── about.html
+├── contact.html
+├── project.html
 ├── css/
-│   ├── style.css          # Main stylesheet
-│   ├── responsive.css     # Responsive styles
-│   └── animations.css     # Animation effects
+│   ├── index.css
+│   ├── about.css
+│   ├── contact.css
+│   ├── project.css
+│   └── style.css
 ├── js/
-│   ├── main.js            # Core JavaScript functionality
-│   ├── progress-bars.js   # Progress bar animations
-│   └── collapsible.js     # Collapsible section handler
-├── images/
-│   ├── banner.jpg         # Hero banner image
-│   ├── profile.jpg        # Profile photo
-│   └── projects/          # Project screenshots
-└── README.md              # This file
-🎨 Design Features
-Visual Elements
+│   ├── script.js
+│   ├── indexscript.js
+│   ├── aboutscript.js
+│   ├── contactscript.js
+│   └── projectscript.js
+🚀 Getting Started
+Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/Revou-FSSE-Jun25/milestone-1-vincentsim01
+Open in browser
+Just open index.html in your browser — no build process needed.
 
-Progress Bars: Animated skill level indicators
-Collapsible Sections: Smooth expand/collapse animations
-Hover Effects: Interactive elements with visual feedback
-Consistent Styling: Uniform design language throughout
+🎁 Special Offer
+Looking to elevate your digital presence?
 
-Layout Components
+🚨 LIMITED EDITION OFFER 🚨
+Vincent is currently offering special packages for:
 
-3-Column Grid: Flexible layout system
-Full-Width Banner: Impactful hero sections
-Card-Based Design: Organized content presentation
-Responsive Navigation: Mobile-friendly menu system
+💻 Custom Software Development
 
-🔧 Installation & Setup
+📈 Digital Marketing Campaigns
 
-Clone the repository:
-bashgit clone https://github.com/vincentkiathadi/portfolio-website.git
-cd portfolio-website
+🎨 Professional Image & Video Editing
 
-Open in browser:
-
-Simply open index.html in your preferred web browser
-No build process required - pure HTML/CSS/JS
-
-
-For development:
-
-Use a local server (e.g., Live Server extension in VS Code)
-Enables proper testing of all features including maps integration
-
-
-
-📱 Responsive Design
-The website is fully responsive and tested across:
-
-Desktop: 1920px and above
-Laptop: 1024px to 1919px
-Tablet: 768px to 1023px
-Mobile: 320px to 767px
-
-🌐 Browser Compatibility
-
-Chrome (latest)
-Firefox (latest)
-Safari (latest)
-Edge (latest)
-Internet Explorer 11+ (partial support)
-
-📧 Contact Information
-Vincent Kiathadi
-
-Email: vincentkiathadi@gmail.com
-Phone/WhatsApp: +62 812 8255 8686
-Address: Pasar Tanah Abang Blok A
+Don't miss out! Reach out via the Contact Page or email Vincent directly for more details.
 
 🔄 Future Enhancements
+📝 Blog section
 
- Blog section implementation
- Dark/Light theme toggle
- Advanced animations and transitions
- Performance optimization
- SEO improvements
- Analytics integration
+🌙 Dark/Light mode toggle
+
+🎞️ Advanced transitions & animations
+
+⚡ Performance optimization
+
+📈 SEO best practices
+
+📊 Analytics integration
 
 🤝 Contributing
-This is a personal portfolio website. However, suggestions and feedback are welcome:
+This is a personal portfolio project, but contributions are welcome!
 
-Fork the repository
-Create a feature branch
-Make your changes
-Submit a pull request
+Fork the repo
+
+Create a new feature branch
+
+Commit your improvements
+
+Submit a Pull Request
 
 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License – see the LICENSE file for details.
+
 🙏 Acknowledgments
+AI tools: Claude.ai & ChatGPT for structure and animation logic
 
-AI tools for initial structure and guidance
 Google Maps API for location integration
-Open source community for inspiration and resources
-Family and friends for continuous support
 
+Open-source community for tutorials and code inspiration
+
+Friends & family for support and feedback
 
 Built with ❤️ by Vincent Kiathadi
-Last updated: 2025
+Last updated: July 2025
