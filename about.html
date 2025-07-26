@@ -73,36 +73,37 @@
 <section class="gallerycontainer text-center z-0">
     <div class="gallerytitle"><h2 class="font-bold text-2xl" >GALLERY</h2></div>
     <div class="galleryinsidecontainer block p-2 md:grid md:grid md:grid-cols-3 md:grid-rows-2">  
-        <img src="https://i.ibb.co/fVfLqpC0/busan.jpg" title="Busan Korea" class="galleryimage w-full md:h-[60%]">
-        <img src="https://i.ibb.co/ch4p9Tsv/kinderdijk.jpg" title="Kinderdijk Netherlands" class="galleryimage w-full md:h-[60%]">
-        <img src="https://i.ibb.co/JFCbw8Yr/arc-de-triomph.jpg" title="Arc De Triomph France" class="galleryimage w-full md:row-span-2 md:h-[90%]">
-        <img src="https://i.ibb.co/KxzQjBbK/apple-flagship.jpg" title="Esplanade Singapore" class="galleryimage w-full md:col-span-2 md:h-[80%]">    
+        <img src="https://i.ibb.co/fVfLqpC0/busan.jpg" title="Busan Korea" class="galleryimage w-full md:h-[60%] hover:scale-105 md:self-end">
+        <img src="https://i.ibb.co/ch4p9Tsv/kinderdijk.jpg" title="Kinderdijk Netherlands" class="galleryimage w-full md:h-[60%] hover:scale-105 md:self-end">
+        <img src="https://i.ibb.co/JFCbw8Yr/arc-de-triomph.jpg" title="Arc De Triomph France" class="galleryimage w-full md:row-span-2 md:h-[80%] hover:scale-105 md:self-end">
+        <img src="https://i.ibb.co/KxzQjBbK/apple-flagship.jpg" title="Esplanade Singapore" class="galleryimage w-full md:col-span-2 md:h-[100%] hover:scale-105 md:self-start">    
     </div>
 </section>
 
-<section class="aboutintro">
-    <div>
-        <h2 class="aboutintrotext">
+<section class="aboutintro bg-[url('https://i.ibb.co/BVCkmJFP/st-john-island.jpg')] bg-no-repeat bg-cover bg-top p-1">
+    <div class="block p-1 text-center">
+        <h2 class="aboutintrotext font-bold text-2xl">
             <span class="icon">👨‍💻</span>
             SNAPSHOT
         </h2>
+        <br>
         
-        <div class="aboutintrointrotext">
+        <div class="aboutintrointrotext text-[0.8em] text-center">
             Meet <span class="highlight">Vincent</span>, a passionate newcomer to the world of software development. 
             <br>Just six months ago, Vincent was working in marketing, 
             <br>but a spark of curiosity about how websites and apps were built changed everything.
         </div>
 
-        <section id="lifesummary">
-            <div class="segment" id="education">
+        <section id="lifesummary" >
+            <div class="segment border rounded-md bg-white/50" id="education">
                 <div class="segment-header" onclick="toggleSegment('education')">
                     <div class="segment-info">
                         <div class="segment-icon education-icon">🎓</div>
                         <h3 class="segment-title">Education</h3>
                     </div>
-                    <button class="expand-button" id="education-btn">Expand</button>
+                    <button class="expand-button text-[0.6em] bg-white/50 border p-2 rounded-md" id="education-btn">Expand</button>
                 </div>
-                <div class="segment-content" id="education-content">
+                <div class="segment-content hidden" id="education-content">
                     <div class="segment-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <br>
@@ -116,16 +117,16 @@
            
         
             <!-- Work Experience Section -->
-            <div class="segment" id="experience">
+            <div class="segment border bg-white/50 rounded-md" id="experience">
                 <div class="segment-header" onclick="toggleSegment('experience')">
                     <div class="segment-info">
                         <div class="segment-icon experience-icon">💼</div>
                         <h3 class="segment-title">Work Experience</h3>
                     </div>
-                    <button class="expand-button" id="experience-btn">Expand</button>
+                    <button class="expand-button text-[0.6em] bg-white/50 border p-2 rounded-md" id="experience-btn">Expand</button>
                 </div>
-                <div class="segment-content" id="experience-content">
-                    <div class="segment-text">
+                <div class="segment-content hidden" id="experience-content">
+                    <div class="segment-text ">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sapien vel nulla facilisis consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                         <br>
                         <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla facilisi morbi tempus iaculis urna.</p>
@@ -136,15 +137,15 @@
             </div>
         
             <!-- Life History Section -->
-            <div class="segment" id="life">
+            <div class="segment border bg-white/50 rounded-md" id="life">
                 <div class="segment-header" onclick="toggleSegment('life')">
                     <div class="segment-info">
                         <div class="segment-icon life-icon">🌟</div>
                         <h3 class="segment-title">Life History</h3>
                     </div>
-                    <button class="expand-button" id="life-btn">Expand</button>
+                    <button class="expand-button text-[0.6em] bg-white/50 border p-2 rounded-md" id="life-btn">Expand</button>
                 </div>
-                <div class="segment-content" id="life-content">
+                <div class="segment-content hidden" id="life-content">
                     <div class="segment-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
                         <br>
