@@ -64,14 +64,14 @@
 
 
 
-<div class="theprojectcontent2 block bg-black text-white p-1 md:p-5 text-center">
+<div class="theprojectcontent2 block bg-black text-white p-1 md:p-5 text-center z-5">
 
     <div class="theprojectcontent2inside block text-center w-full border border-white rounded-md mt-3 mb-3 pt-3 pb-3 p-1 md:p-5 md:inline-block md:w-[28%]">
         <img src="https://i.gifer.com/MN8H.gif" class="theprojectcontent2insideimage mx-auto  rounded-full mb-3 w-[70%] h-[90%]" alt="Project 1">
         <h2>Software Development</h2>
         <div class="inline-block"><img src="https://i.ibb.co/GN0X5sB/stars.png" alt="stars" class="staricon mx-auto w-[30%] mb-2" border="0"/></div>
         <button class="theprojectcontent2insidebutton text-[0.8em] bg-white/50 mx-auto border rounded-md p-2 cursor-pointer hover:scale-105" onclick="togglecontenttext('software')">View Project</button>
-        <div class="projectcontenttext hidden p-2 border border-white rounded-md" id="softwareprojectcontenttext">
+        <div class="projectcontenttext hidden p-2 border bg-black border-white rounded-md z-50 md:absolute md:w-full md:left-0" id="softwareprojectcontenttext">
             <div class="mb-5 underline text-[0.8em]">Software Development Projects</div>
             <div class="projectdetail border border-white rounded-md p-3 mb-5">
                 <div>   
@@ -116,7 +116,7 @@
         <img src="https://i.ibb.co/GN0X5sB/stars.png" alt="stars" class="staricon mx-auto w-[30%]" border="0">
         <button class="theprojectcontent2insidebutton text-[0.8em] bg-white/50 border rounded-md p-2 cursor-pointer hover:scale-105" onclick="togglecontenttext('marketing')">View Project</button>
 
-        <div class="projectcontenttext hidden p-2 border border-white rounded-md" id="marketingprojectcontenttext">
+        <div class="projectcontenttext hidden p-2 border bg-black border-white rounded-md  md:absolute md:w-full md:left-0" id="marketingprojectcontenttext">
             <div class="mb-5 underline text-[0.8em]">Digital Marketing Projects</div>
             <div class="projectdetail border border-white rounded-md p-3 mb-5">
                 <div>
@@ -161,13 +161,13 @@
  
 
     </div>
-    <div class="theprojectcontent2inside  text-center w-full border border-white rounded-md mt-3 mb-3 pt-3 pb-3 p-1 md:p-5 md:inline-block md:w-[28%]">
+    <div class="theprojectcontent2inside  text-center w-full border border-white rounded-md mt-3 mb-3 pt-3 pb-3 p-1 z-5 md:p-5 md:inline-block md:w-[28%]">
         <img src="https://i.gifer.com/2GU.gif" class="theprojectcontent2insideimage mx-auto rounded-full mb-3 w-[70%]" alt="Project 3">
         <h2>Image Editing</h2>
         <img src="https://i.ibb.co/GN0X5sB/stars.png" alt="stars" class="staricon mx-auto w-[30%]" border="0">
         <button class="theprojectcontent2insidebutton text-[0.8em] bg-white/50 border rounded-md p-2 cursor-pointer hover:scale-105" onclick="togglecontenttext('image')">View Project</button>
         
-        <div class="projectcontenttext hidden p-2 border border-white rounded-md" id="imageprojectcontenttext">
+        <div class="projectcontenttext hidden p-2 border border-white rounded-md bg-black md:absolute md:w-full md:left-0" id="imageprojectcontenttext">
             <div class="mb-5 underline text-[0.8em]">Image Projects</div>
             <div class="projectdetail border border-white rounded-md p-3 mb-5">
                 <div>
@@ -216,8 +216,8 @@
 
  <br><br>
 
-    <section class="timelinecontainer">
-        <div class="wavy-line">
+    <section class="timelinecontainer z-0">
+        <div class="wavy-line z-0">
             <svg class="wavy-path" viewBox="0 0 10 800" preserveAspectRatio="none">
                 <path class="animated-path" d="M5,0 Q15,100 5,200 Q-5,300 5,400 Q15,500 5,600 Q-5,700 5,800" 
                       stroke="url(#gradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
