@@ -80,31 +80,31 @@
     </div>
 </section>
 
-<section class="aboutintro bg-[url('https://i.ibb.co/BVCkmJFP/st-john-island.jpg')] bg-no-repeat bg-cover bg-top p-1">
-    <div class="block p-1 text-center">
+<section class="aboutintro bg-[url('https://i.ibb.co/BVCkmJFP/st-john-island.jpg')] bg-no-repeat bg-cover bg-center p-1 transition-all duration-[2000ms]">
+    <div class="block p-1 text-center md:pt-10">
         <h2 class="aboutintrotext font-bold text-2xl">
             <span class="icon">👨‍💻</span>
             SNAPSHOT
         </h2>
         <br>
         
-        <div class="aboutintrointrotext text-[0.8em] text-center">
+        <div class="aboutintrointrotext text-[0.8em] text-center md:mb-10">
             Meet <span class="highlight">Vincent</span>, a passionate newcomer to the world of software development. 
             <br>Just six months ago, Vincent was working in marketing, 
             <br>but a spark of curiosity about how websites and apps were built changed everything.
         </div>
 
-        <section id="lifesummary" >
-            <div class="segment border rounded-md bg-white/50" id="education">
+        <section class="mt-3 md:pb-20" id="lifesummary md:flex md:flex-row md:items-top">
+            <div class="segment border rounded-md bg-white/50 p-3 md:w-[29%] md:inline-block" id="education">
                 <div class="segment-header" onclick="toggleSegment('education')">
                     <div class="segment-info">
                         <div class="segment-icon education-icon">🎓</div>
                         <h3 class="segment-title">Education</h3>
                     </div>
-                    <button class="expand-button text-[0.6em] bg-white/50 border p-2 rounded-md" id="education-btn">Expand</button>
+                    <button class="expand-button text-[0.6em] bg-white/50 border p-2 rounded-md cursor-pointer hover:scale-105" id="education-btn ">Expand</button>
                 </div>
-                <div class="segment-content hidden" id="education-content">
-                    <div class="segment-text">
+                <div class="segment-content hidden transition-all duration-[3000ms]" id="education-content">
+                    <div class="segment-text text-[0.6em] p-3">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <br>
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -117,16 +117,16 @@
            
         
             <!-- Work Experience Section -->
-            <div class="segment border bg-white/50 rounded-md" id="experience">
+            <div class="segment border bg-white/50 rounded-md p-3 md:w-[29%] md:inline-block " id="experience">
                 <div class="segment-header" onclick="toggleSegment('experience')">
                     <div class="segment-info">
                         <div class="segment-icon experience-icon">💼</div>
                         <h3 class="segment-title">Work Experience</h3>
                     </div>
-                    <button class="expand-button text-[0.6em] bg-white/50 border p-2 rounded-md" id="experience-btn">Expand</button>
+                    <button class="expand-button text-[0.6em] bg-white/50 border p-2 rounded-md cursor-pointer hover:scale-105" id="experience-btn">Expand</button>
                 </div>
                 <div class="segment-content hidden" id="experience-content">
-                    <div class="segment-text ">
+                    <div class="segment-text text-[0.6em] p-3">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sapien vel nulla facilisis consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                         <br>
                         <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla facilisi morbi tempus iaculis urna.</p>
@@ -137,16 +137,16 @@
             </div>
         
             <!-- Life History Section -->
-            <div class="segment border bg-white/50 rounded-md" id="life">
+            <div class="segment border bg-white/50 rounded-md p-3 md:w-[29%] md:inline-block " id="life">
                 <div class="segment-header" onclick="toggleSegment('life')">
                     <div class="segment-info">
                         <div class="segment-icon life-icon">🌟</div>
                         <h3 class="segment-title">Life History</h3>
                     </div>
-                    <button class="expand-button text-[0.6em] bg-white/50 border p-2 rounded-md" id="life-btn">Expand</button>
+                    <button class="expand-button text-[0.6em] bg-white/50 border p-2 rounded-md cursor-pointer hover:scale-105" id="life-btn">Expand</button>
                 </div>
                 <div class="segment-content hidden" id="life-content">
-                    <div class="segment-text">
+                    <div class="segment-text text-[0.6em] p-3">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
                         <br>
                         <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
