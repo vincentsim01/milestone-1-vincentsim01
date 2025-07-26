@@ -1,8 +1,8 @@
-console.log('project work');
+
 
 function togglecontenttext(param){
     let contentId = document.getElementById(`${param}projectcontenttext`);
-    contentId.classList.toggle("expanded");
+    contentId.classList.toggle("hidden");
 }
 
 
@@ -19,8 +19,8 @@ const initialX = -450;
 const initialY = 0;
 
 // Animation parameters
-const startScroll = 200;
-const endScroll = 400;
+const startScroll = 50;
+const endScroll = 200;
 
 function updateAnimation() {
     const scrollY = window.pageYOffset;

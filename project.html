@@ -8,7 +8,8 @@
             @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
             </style>
         <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="description" content="Welcome to Project Page. Let's see my work projects."> <meta name="robots" content="index, follow"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta property="og:title" content="Vincent Kiathadi's Projects"> <meta property="og:description" content="Discover the past projects of award-winning website developer in town. Let's connect and explore all possibilities"> <meta property="og:image" content="https://i.ibb.co/k2pYPYTf/Screenshot-2025-07-03-102851.png"> <meta property="og:type" content="website"> <link rel="icon" href="../assets/icons8-done-48.png" type="image/x-icon"> 
-        <link rel="stylesheet" href="./css/style.css"><link rel="stylesheet" href="./css/project.css">
+        <!-- <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/project.css"> -->
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
@@ -50,27 +51,32 @@
                   </div>
           </nav>
        </header>
- <section> <div class="bannerproject">  <div class="projectoverlay"></div>    <div class="theprojectcontent">   <h1 class="myprojectcontenttitle">MY PROJECTS</h1>   <br><br>  </div> </div> </section>
+ <section class="z-0"> 
+    <div class="bannerproject relative md:h-[60vh] h-[40vh] bg-[url('https://i.ibb.co/bMcyV9JQ/project.jpg')] bg-no-repeat bg-cover bg-top z-0">
+      <div class="projectoverlay absolute w-full h-full bg-black opacity-50 z-0"></div>    
+      <div class="theprojectcontent bsolute z-1 w-full h-full  flex flex-col items-center justify-center z-0">   
+        <h1 class="myprojectcontenttitle text-white text-3xl text-shadow md:text-6xl lg:text-8xl font-bold z-0">MY PROJECTS</h1>   
+        <br><br>  
+    </div> 
+</div> 
+</section>
 
 
 
 
-<div class="theprojectcontent2">
+<div class="theprojectcontent2 block bg-black text-white p-1 md:p-5">
 
-    <div class="theprojectcontent2inside">
-        <!-- <a href="https://imgbb.com/"><img src="https://i.ibb.co/7JDmGZp1/mobile.png" alt="mobile" border="0"></a> -->
-        <!-- <a href="https://imgbb.com/"><img src="https://i.ibb.co/tMRhFZxx/coding-2.png" alt="coding-2" border="0"></a> -->
-        <img src="https://i.gifer.com/MN8H.gif" class="theprojectcontent2insideimage" alt="Project 1">
-        <!-- <img src="https://i.ibb.co/7JDmGZp1/mobile.png" class="theprojectcontent2insideimage" alt="Project 1"> -->
+    <div class="theprojectcontent2inside block text-center w-full border border-white rounded-md mt-3 mb-3 pt-3 pb-3 p-1 md:p-5">
+        <img src="https://i.gifer.com/MN8H.gif" class="theprojectcontent2insideimage mx-auto" alt="Project 1">
         <h2>Software Development</h2>
         <br>
-        <span><img src="https://i.ibb.co/GN0X5sB/stars.png" alt="stars" class="staricon" border="0"></span>
+        <div class="inline-block"><img src="https://i.ibb.co/GN0X5sB/stars.png" alt="stars" class="staricon mx-auto w-[30%]" border="0"/></div>
         <br>
 
 
 
-        <button class="theprojectcontent2insidebutton" onclick="togglecontenttext('software')">View Project</button>
-        <div class="projectcontenttext" id="softwareprojectcontenttext">
+        <button class="theprojectcontent2insidebutton text-[0.8em] bg-white/50 border rounded-md p-2" onclick="togglecontenttext('software')">View Project</button>
+        <div class="projectcontenttext hidden" id="softwareprojectcontenttext">
             <div>Software Development Projects</div>
             <div class="projectdetail">
                 <div>
@@ -110,16 +116,16 @@
 
 
     </div>
-    <div class="theprojectcontent2inside">
-        <img src="https://i.ibb.co/YFMmk9Vd/images-marketing.jpg" title="digital marketing"class="theprojectcontent2insideimage" alt="Project 2">
+    <div class="theprojectcontent2inside border border-white rounded-md mt-3 mb-3 pt-3 pb-3 block text-center w-full  md:p-5">
+        <img src="https://i.ibb.co/YFMmk9Vd/images-marketing.jpg" title="digital marketing"class="theprojectcontent2insideimage mx-auto" alt="Project 2">
         <h2>Digital Marketing</h2>
         <br>
-        <img src="https://i.ibb.co/GN0X5sB/stars.png" alt="stars" class="staricon" border="0">
+        <img src="https://i.ibb.co/GN0X5sB/stars.png" alt="stars" class="staricon mx-auto w-[30%]" border="0">
 
         <br>
-        <button class="theprojectcontent2insidebutton" onclick="togglecontenttext('marketing')">View Project</button>
+        <button class="theprojectcontent2insidebutton text-[0.8em] bg-white/50 border rounded-md p-2" onclick="togglecontenttext('marketing')">View Project</button>
 
-        <div class="projectcontenttext" id="marketingprojectcontenttext">
+        <div class="projectcontenttext hidden" id="marketingprojectcontenttext">
             <div>Digital Marketing Projects</div>
             <div class="projectdetail">
                 <div>
@@ -164,18 +170,18 @@
  
 
     </div>
-    <div class="theprojectcontent2inside">
-        <img src="https://i.gifer.com/2GU.gif" class="theprojectcontent2insideimage" alt="Project 3">
+    <div class="theprojectcontent2inside  text-center w-full border border-white rounded-md mt-3 mb-3 pt-3 pb-3 p-1 md:p-5">
+        <img src="https://i.gifer.com/2GU.gif" class="theprojectcontent2insideimage mx-auto" alt="Project 3">
         <h2>Image Editing</h2>
         <br>
-        <img src="https://i.ibb.co/GN0X5sB/stars.png" alt="stars" class="staricon" border="0">
+        <img src="https://i.ibb.co/GN0X5sB/stars.png" alt="stars" class="staricon mx-auto w-[30%]" border="0">
         <br>
 
 
 
-        <button class="theprojectcontent2insidebutton" onclick="togglecontenttext('image')">View Project</button>
+        <button class="theprojectcontent2insidebutton text-[0.8em] bg-white/50 border rounded-md p-2" onclick="togglecontenttext('image')">View Project</button>
         
-        <div class="projectcontenttext" id="imageprojectcontenttext">
+        <div class="projectcontenttext hidden" id="imageprojectcontenttext">
             <div>Image Projects</div>
             <div class="projectdetail">
                 <div>
