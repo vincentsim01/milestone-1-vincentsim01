@@ -55,12 +55,12 @@ const finalXskill = window.innerWidth / 2 - 50;
 const finalYskill = window.innerHeight / 2 - 50;
 
 // Initial position (top-left, off-screen)
-const initialXskill = 550;
+const initialXskill = -550;
 const initialYskill = 0;
 
 // Animation parameters
-const startScrollskill = 1300;
-const endScrollskill = 1700;
+const startScrollskill = 600;
+const endScrollskill = 1000;
 
 function updateAnimationskill() {
     const scrollYskill = window.pageYOffset;
