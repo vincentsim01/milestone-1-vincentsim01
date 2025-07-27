@@ -14,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="icon" href="../assets/icons8-star-48.png" type="image/x-icon">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/index.css">
+  <!-- <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/index.css"> -->
   
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <style>
@@ -53,7 +53,7 @@
               <a href="project.html" class="thelinks hover:underline text-sm">PROJECTS</a>
         </nav>
               <div class="menuburgercontainer cursor-pointer lg:hidden md:w-2/5 w-1/3 flex justify-start"><img src="https://i.ibb.co/TD8qWCZJ/menu.png"  class="menuburger w-[20px]" title="burger"></img></div>
-              <div class="menunavburgercontainer hidden none w-[80%] border absolute left-0 bg-white p-2 rounded-md h-screen shadow-lg">
+              <div class="menunavburgercontainer hidden none w-[80%] border absolute left-0 bg-white p-2 rounded-md h-screen shadow-lg z-50">
                   <div class="closeburgernav cursor-pointer absolute -top-3 -right-3 border bg-black rounded-full hover:bg-black-300 text-white"><i class="fa-solid fa-circle-xmark"></i></div>
                   <p class="hover:underline mt-5 mb-3"><a href="index.html" class="thelinksburger hover:underline">HOME</a></p>
                   <p class="hover:underline mb-3"><a href="about.html" class="thelinksburger hover:underline">ABOUT</a></p>
@@ -70,49 +70,49 @@
           </nav>
        </header>
 
-  <section>
+  <section class="relative -z-50 ">
     
-    <div class="banner"> 
-      <div class="bannerleft">
-        <div class="textrotated">
-          <h1 class="textrotatedfont">WELCOME</h1>
+    <div class="banner bg-[url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnhjeHByanNmbG1wYnIwMXBqYTgzc2h3ajR6d2hiMWw5cjJ1YmlzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oz8xRz3yKv5KnHTcA/giphy.gif')] relative bg-no-repeat bg-cover bg-top z-0 md:flex md:flex-row md:items-top"> 
+      <div class="bannerleft block md:inline-block md:w-5/10 md:relative md:top-0">
+        <div class="textrotated text-center md:h-[70%] md:flex md:items-center md:justify-end">
+          <h1 class="textrotatedfont relative text-[1.5em] md:text-[250%] md:-rotate-90">WELCOME</h1>
         </div>
-        <br><br>
-        <div class="textsmall">
+        <br>
+        <div class="textsmall text-[0.7em] p-2 text-center">
           <p>To my humble site where I share my work and thoughts</p>
           <p>I am a web developer and designer with a little bit of digital marketing</p>
         </div>
       </div>
 
-      <div class="bannerright">
-        <img src="https://i.ibb.co/PsBKP6Dn/profile-photo-vincent.jpg" class="theimage" alt="Vincent Kiathadi Image" title="this is Vincent Kiathadi"></img>
-         <button id="indexbuttonbanner"><a href="contact.html">Contact Me</a></button>
+      <div class="bannerright block text-center relative p-2 md:inline-block md:w-5/10">
+        <img src="https://i.ibb.co/PsBKP6Dn/profile-photo-vincent.jpg" class="theimage relative -z-50 w-[75%] mx-auto rounded-tr-[10px] rounded-bl-[10px] border" alt="Vincent Kiathadi Image" title="this is Vincent Kiathadi"></img>
+         <button id="indexbuttonbanner" class="rounded-tr-[10px] rounded-bl-[10px] border bg-white hover:bg-black-200 cursor-pointer mt-4 mb-4"><a href="contact.html">Contact Me</a></button>
       </div>
 
     </div>
   </section>
 
-  <section class="thetablecontainer">
-    <div class="overlay"></div>
-    <div id="tableinsideleft">
-        <h2 class="tabletitle">DO YOU NEED A WEBSITE FAST?</h2>
-        <p class = "tableleftp">Vincent Kiathadi is an aspiring software developer with additional background in digital marketing. With hands-on experience in crafting and optimizing online campaigns, Vincent is now channeling his analytical mindset and creative problem-solving skills into building web applications and learning modern development tools. Driven by curiosity and a passion for tech, he's on a journey to bridge marketing and code.</p>
-        <p class = "tableleftp">Furthermore he can also <b>get things done ASAP. No long queue, no hidden cost.</b> All can be done reliably and affordably</p>
-        <table class="thetable text-align-center" cellspacing="10">
+  <section class="thetablecontainer bg-[url('https://i.ibb.co/zTgMPyWY/picture.jpg')] block mt-10 relative md:h-[80vh] bg-no-repeat bg-cover bg-top z-0 mb-10 text-white">
+    <div class="overlay absolute w-full h-full bg-black opacity-40 z-0"></div>
+    <div id="tableinsideleft" class="p-5 block text-center md:w-[60%] md:text-left md:pt-15 md:pl-15">
+        <h2 class="tabletitle text-[1.3em] md:text-[220%]">DO YOU NEED A WEBSITE FAST?</h2>
+        <p class = "tableleftp text-[0.7em] mt-3">Vincent Kiathadi is an aspiring software developer with additional background in digital marketing. With hands-on experience in crafting and optimizing online campaigns, Vincent is now channeling his analytical mindset and creative problem-solving skills into building web applications and learning modern development tools. Driven by curiosity and a passion for tech, he's on a journey to bridge marketing and code.</p>
+        <p class = "tableleftp text-[0.7em]">Furthermore he can also <b>get things done ASAP. No long queue, no hidden cost.</b> All can be done reliably and affordably</p>
+        <table class="thetable text-center text-[0.5em] mt-5 mb-2 bg-gray-500 bg-opacity-50 border border-white rounded-md" cellspacing="5">
             <tr>
-                <th class="stackcolumn1"><img class="skillicontable" src="https://i.ibb.co/yn14KWDd/speedometer.png" alt="speed" title="speed"></img></th>
-                <th class="stackcolumn2"><img class="skillicontable" src="https://i.ibb.co/jkkgWWcg/charisma.png" alt="aesthetic" title="aesthetic"></img></th>
-                <th class="stackcolumn3"><img class="skillicontable" src="https://i.ibb.co/xSsw31sJ/idea.png" alt="smart" title="smart"></th>
+                <th class="stackcolumn1 border border-white text-center p-3"><img class="skillicontable w-[25px] mx-auto" src="https://i.ibb.co/yn14KWDd/speedometer.png" alt="speed" title="speed"></img></th>
+                <th class="stackcolumn2 border border-white text-center p-3"><img class="skillicontable w-[25px] mx-auto" src="https://i.ibb.co/jkkgWWcg/charisma.png" alt="aesthetic" title="aesthetic"></img></th>
+                <th class="stackcolumn3 border border-white text-center p-3"><img class="skillicontable w-[25px] mx-auto" src="https://i.ibb.co/xSsw31sJ/idea.png" alt="smart" title="smart"></th>
             </tr>
             <tr>
-                <td class="stackcolumn1"><big><b>SPEED</b></big></td>
-                <td class="stackcolumn2"><big><b>AESTHETIC</b></big></td>
-                <td class="stackcolumn3"><big><b>INTELLIGENCE</b></big></td>
+                <td class="stackcolumn1 border border-white text-center p-3"><big><b>SPEED</b></big></td>
+                <td class="stackcolumn2 border border-white text-center p-3"><big><b>AESTHETIC</b></big></td>
+                <td class="stackcolumn3 border border-white text-center p-3"><big><b>INTELLIGENCE</b></big></td>
             </tr>
             <tr>
-                <td class="stackcolumn1">I can craft and launch a fully functioning website within 1 week</td>
-                <td class="stackcolumn2">I can design a beautiful web that attracts your high-paying client</td>
-                <td class="stackcolumn3">I can solve your problems based on your requirements</td>
+                <td class="stackcolumn1 border border-white text-center p-3">I can craft and launch a fully functioning website within 1 week</td>
+                <td class="stackcolumn2 border border-white text-center p-3">I can design a beautiful web that attracts your high-paying client</td>
+                <td class="stackcolumn3 border border-white text-center p-3">I can solve your problems based on your requirements</td>
             </tr>
         </table>
     </div>
