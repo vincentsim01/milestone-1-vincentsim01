@@ -1,0 +1,188 @@
+.timelinecontainer{
+    margin:10px;
+    padding:30px;
+    border: solid black 1px;
+    border-radius:10px;
+
+}
+
+.timeline {
+    position: relative;
+    margin: 2rem 0;
+    z-index:-10;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 6rem 0;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 0.8s ease forwards;
+    z-index:-9;
+}
+
+.timeline-item:nth-child(1) { animation-delay: 0.2s; }
+.timeline-item:nth-child(2) { animation-delay: 0.4s; }
+.timeline-item:nth-child(3) { animation-delay: 0.6s; }
+.timeline-item:nth-child(4) { animation-delay: 0.8s; }
+.timeline-item:nth-child(5) { animation-delay: 1s; }
+
+.timeline-item:nth-child(even) {
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) .content {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.milestone-dot {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+    border: 4px solid;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(255,255,255,0.5);
+    animation: pulse 2s infinite;
+}
+
+.timeline-item:nth-child(1) .milestone-dot { border-color: #ff6b6b; }
+.timeline-item:nth-child(2) .milestone-dot { border-color: #4ecdc4; }
+.timeline-item:nth-child(3) .milestone-dot { border-color: #45b7d1; }
+.timeline-item:nth-child(4) .milestone-dot { border-color: #96ceb4; }
+.timeline-item:nth-child(5) .milestone-dot { border-color: #feca57; }
+
+
+.content {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 400px;
+    margin-right: auto;
+    position: relative;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.95);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    background: inherit;
+    border-radius: 3px;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.timeline-item:nth-child(odd) .content::before {
+    right: -10px;
+}
+
+.timeline-item:nth-child(even) .content::before {
+    left: -10px;
+}
+
+.year {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.timeline-item:nth-child(1) .year { color: #ff6b6b; }
+.timeline-item:nth-child(2) .year { color: #4ecdc4; }
+.timeline-item:nth-child(3) .year { color: #45b7d1; }
+.timeline-item:nth-child(4) .year { color: #96ceb4; }
+.timeline-item:nth-child(5) .year { color: #feca57; }
+
+
+.title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.description {
+    line-height: 1.6;
+    color: #555;
+    font-size: 1rem;
+}
+
+.wavy-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    z-index: 1;
+}
+
+.wavy-path {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: translateX(-50%) scale(1);
+    }
+    50% {
+        transform: translateX(-50%) scale(1.1);
+    }
+}
+
+@keyframes pathDraw {
+    from {
+        stroke-dashoffset: 1000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.animated-path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: pathDraw 3s ease-in-out forwards;
+}
+
+@media (max-width: 768px) {
+    .timeline-item {
+        text-align: center !important;
+    }
+    
+    .content {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto !important;
+    }
+    
+    .content::before {
+        display: none;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+    }
+}
+
