@@ -6,7 +6,7 @@ function togglecontenttext(param){
 }
 
 
-const animatedImage = document.getElementsByClassName('theprojectcontent2');
+const animatedImage = document.getElementsByClassName('');
 
 
 
