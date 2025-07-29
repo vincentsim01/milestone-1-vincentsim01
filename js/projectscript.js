@@ -1,9 +1,36 @@
-
+const modalOverlay = document.getElementById('modalOverlay');
+const modalContentSoftware = document.getElementById('softwareprojectcontenttext');
+const modalContentMarketing = document.getElementById('marketingprojectcontenttext');
+const modalContentImage = document.getElementById('imageprojectcontenttext');
 
 function togglecontenttext(param){
-    let contentId = document.getElementById(`${param}projectcontenttext`);
+    let contentId = document.getElementById(`${param}projectcontenttextmb`);
     contentId.classList.toggle("hidden");
 }
+
+function togglecontenttext2(param){
+    let contentId = document.getElementById(`${param}projectcontenttext`);
+    contentId.classList.toggle("hidden");
+    modalOverlay.classList.toggle("hidden");
+}
+
+
+
+modalOverlay.addEventListener('click', function (event) {
+    if (!modalContentSoftware.contains(event.target)) {
+        modalContentSoftware.classList.add('hidden');
+        modalOverlay.classList.add('hidden'); // Hide the modal
+    }
+    if (!modalContentMarketing.contains(event.target)) {
+        modalContentMarketing.classList.add('hidden');
+        modalOverlay.classList.add('hidden'); // Hide the modal
+    }
+    if (!modalContentImage.contains(event.target)) {
+        modalContentImage.classList.add('hidden');
+        modalOverlay.classList.add('hidden'); // Hide the modal
+    }
+  });
+
 
 
 const animatedImage = document.getElementsByClassName('');
