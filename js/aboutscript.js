@@ -93,3 +93,11 @@ function updateAnimationskill() {
 window.addEventListener('scroll', updateAnimationskill);
 window.addEventListener('resize', updateAnimationskill);
 updateAnimationskill();
+
+
+function toggleDarkMode(){
+    document.body.classList.toggle('dark');
+    document.getElementsByClassName('theheader')[0].classList.toggle('dark');
+    document.querySelector('footer').classList.toggle('white');
+    document.getElementsByClassName('aboutintro')[0].classList.toggle('dark');
+}
